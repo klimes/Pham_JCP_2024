@@ -1,0 +1,30 @@
+job: multistep
+steps: no, yes
+
+calculation_common:
+  job: threebody
+  bsse_correction_3b: none
+  interface: dispersion3
+  d3_s6: 1.0
+  d3_damping: none
+  d3_hybridization: grimme_mod
+  d3_3body: true
+  #no effect on 3b?
+  #development:
+  #  d3_double_damping4: yes
+  #  d3_double_damping_r: 0.72
+  #  d3_double_damping_w: 0.20
+  d3_s8: 1.187
+  #geometry: /home/kelum/work/dataset/3B69/3B-69_geometries/11b_isoxazole.xyz
+  geometry: /home/kelum/work/erc/khanh/analysis/analysis_jupyter/structures/Ethane/Trimers/trimer_0300.xyz
+
+# MP2/CBS calculation
+calculation_no:
+  d3_a1: 0.944
+  d3_a2: 0.480
+
+calculation_yes:
+  d3_data_patch: mp2d_uchf_c6.yaml
+  d3_a1: 0.944
+  d3_a2: 0.480
+

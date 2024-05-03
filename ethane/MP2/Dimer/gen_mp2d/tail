@@ -1,0 +1,11 @@
+
+# MP2/CBS calculation
+calculation_no:
+  d3_a1: 0.944
+  d3_a2: 0.480
+
+calculation_yes:
+  d3_data_patch: mp2d_uchf_c6.yaml
+  d3_a1: 0.944
+  d3_a2: 0.480
+

@@ -1,0 +1,11 @@
+
+# MP2/CBS calculation
+calculation_no:
+  d3_a1: 0.944
+  d3_a2: 0.480
+
+#don't change anything, being lazy here, we'll just get the same number twice but at least we won't care which one to choose
+calculation_yes:
+  d3_a1: 0.944
+  d3_a2: 0.480
+

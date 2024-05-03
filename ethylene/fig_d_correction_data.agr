@@ -1,0 +1,5577 @@
+# Grace project file
+#
+@version 50125
+@page size 792, 612
+@page scroll 5%
+@page inout 5%
+@link page off
+@map font 8 to "Courier", "Courier"
+@map font 10 to "Courier-Bold", "Courier-Bold"
+@map font 11 to "Courier-BoldOblique", "Courier-BoldOblique"
+@map font 9 to "Courier-Oblique", "Courier-Oblique"
+@map font 14 to "Courier-Regular", "Courier-Regular"
+@map font 15 to "Dingbats-Regular", "Dingbats-Regular"
+@map font 4 to "Helvetica", "Helvetica"
+@map font 6 to "Helvetica-Bold", "Helvetica-Bold"
+@map font 7 to "Helvetica-BoldOblique", "Helvetica-BoldOblique"
+@map font 5 to "Helvetica-Oblique", "Helvetica-Oblique"
+@map font 20 to "NimbusMonoL-Bold", "NimbusMonoL-Bold"
+@map font 21 to "NimbusMonoL-BoldOblique", "NimbusMonoL-BoldOblique"
+@map font 22 to "NimbusMonoL-Regular", "NimbusMonoL-Regular"
+@map font 23 to "NimbusMonoL-RegularOblique", "NimbusMonoL-RegularOblique"
+@map font 24 to "NimbusRomanNo9L-Medium", "NimbusRomanNo9L-Medium"
+@map font 25 to "NimbusRomanNo9L-MediumItalic", "NimbusRomanNo9L-MediumItalic"
+@map font 26 to "NimbusRomanNo9L-Regular", "NimbusRomanNo9L-Regular"
+@map font 27 to "NimbusRomanNo9L-RegularItalic", "NimbusRomanNo9L-RegularItalic"
+@map font 28 to "NimbusSansL-Bold", "NimbusSansL-Bold"
+@map font 29 to "NimbusSansL-BoldCondensed", "NimbusSansL-BoldCondensed"
+@map font 30 to "NimbusSansL-BoldCondensedItalic", "NimbusSansL-BoldCondensedItalic"
+@map font 31 to "NimbusSansL-BoldItalic", "NimbusSansL-BoldItalic"
+@map font 32 to "NimbusSansL-Regular", "NimbusSansL-Regular"
+@map font 33 to "NimbusSansL-RegularCondensed", "NimbusSansL-RegularCondensed"
+@map font 34 to "NimbusSansL-RegularCondensedItalic", "NimbusSansL-RegularCondensedItalic"
+@map font 35 to "NimbusSansL-RegularItalic", "NimbusSansL-RegularItalic"
+@map font 36 to "StandardSymbolsL-Regular", "StandardSymbolsL-Regular"
+@map font 12 to "Symbol", "Symbol"
+@map font 2 to "Times-Bold", "Times-Bold"
+@map font 3 to "Times-BoldItalic", "Times-BoldItalic"
+@map font 1 to "Times-Italic", "Times-Italic"
+@map font 0 to "Times-Roman", "Times-Roman"
+@map font 42 to "URWBookmanL-DemiBold", "URWBookmanL-DemiBold"
+@map font 43 to "URWBookmanL-DemiBoldItalic", "URWBookmanL-DemiBoldItalic"
+@map font 44 to "URWBookmanL-Light", "URWBookmanL-Light"
+@map font 45 to "URWBookmanL-LightItalic", "URWBookmanL-LightItalic"
+@map font 46 to "URWChanceryL-MediumItalic", "URWChanceryL-MediumItalic"
+@map font 47 to "URWGothicL-Book", "URWGothicL-Book"
+@map font 48 to "URWGothicL-BookOblique", "URWGothicL-BookOblique"
+@map font 49 to "URWGothicL-Demi", "URWGothicL-Demi"
+@map font 50 to "URWGothicL-DemiOblique", "URWGothicL-DemiOblique"
+@map font 51 to "URWPalladioL-Bold", "URWPalladioL-Bold"
+@map font 52 to "URWPalladioL-BoldItalic", "URWPalladioL-BoldItalic"
+@map font 53 to "URWPalladioL-Italic", "URWPalladioL-Italic"
+@map font 54 to "URWPalladioL-Roman", "URWPalladioL-Roman"
+@map font 55 to "Utopia-Bold", "Utopia-Bold"
+@map font 56 to "Utopia-BoldItalic", "Utopia-BoldItalic"
+@map font 57 to "Utopia-Italic", "Utopia-Italic"
+@map font 58 to "Utopia-Regular", "Utopia-Regular"
+@map font 13 to "ZapfDingbats", "ZapfDingbats"
+@map color 0 to (255, 255, 255), "white"
+@map color 1 to (0, 0, 0), "black"
+@map color 2 to (255, 0, 0), "red"
+@map color 3 to (0, 255, 0), "green"
+@map color 4 to (0, 0, 255), "blue"
+@map color 5 to (255, 255, 0), "yellow"
+@map color 6 to (188, 143, 143), "brown"
+@map color 7 to (220, 220, 220), "grey"
+@map color 8 to (148, 0, 211), "violet"
+@map color 9 to (0, 255, 255), "cyan"
+@map color 10 to (255, 0, 255), "magenta"
+@map color 11 to (255, 165, 0), "orange"
+@map color 12 to (114, 33, 188), "indigo"
+@map color 13 to (103, 7, 72), "maroon"
+@map color 14 to (64, 224, 208), "turquoise"
+@map color 15 to (0, 139, 0), "green4"
+@reference date 0
+@date wrap off
+@date wrap year 1950
+@default linewidth 1.0
+@default linestyle 1
+@default color 1
+@default pattern 1
+@default font 0
+@default char size 1.000000
+@default symbol size 1.000000
+@default sformat "%.8g"
+@background color 0
+@page background fill on
+@timestamp off
+@timestamp 0.03, 0.03
+@timestamp color 1
+@timestamp rot 0
+@timestamp font 0
+@timestamp char size 1.000000
+@timestamp def "Fri Nov 24 16:01:58 2023"
+@r0 off
+@link r0 to g0
+@r0 type above
+@r0 linestyle 1
+@r0 linewidth 1.0
+@r0 color 1
+@r0 line 0, 0, 0, 0
+@r1 off
+@link r1 to g0
+@r1 type above
+@r1 linestyle 1
+@r1 linewidth 1.0
+@r1 color 1
+@r1 line 0, 0, 0, 0
+@r2 off
+@link r2 to g0
+@r2 type above
+@r2 linestyle 1
+@r2 linewidth 1.0
+@r2 color 1
+@r2 line 0, 0, 0, 0
+@r3 off
+@link r3 to g0
+@r3 type above
+@r3 linestyle 1
+@r3 linewidth 1.0
+@r3 color 1
+@r3 line 0, 0, 0, 0
+@r4 off
+@link r4 to g0
+@r4 type above
+@r4 linestyle 1
+@r4 linewidth 1.0
+@r4 color 1
+@r4 line 0, 0, 0, 0
+@g0 on
+@g0 hidden false
+@g0 type XY
+@g0 stacked false
+@g0 bar hgap 0.000000
+@g0 fixedpoint off
+@g0 fixedpoint type 0
+@g0 fixedpoint xy 0.000000, 0.000000
+@g0 fixedpoint format general general
+@g0 fixedpoint prec 6, 6
+@with g0
+@    world 4, -30, 20, 0
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.150000, 0.150000, 1.150000, 0.850000
+@    title ""
+@    title font 0
+@    title size 1.500000
+@    title color 1
+@    subtitle ""
+@    subtitle font 0
+@    subtitle size 1.000000
+@    subtitle color 1
+@    xaxes scale Normal
+@    yaxes scale Normal
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1.0
+@    xaxis  label ""
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 1.000000
+@    xaxis  label font 0
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick on
+@    xaxis  tick major 5
+@    xaxis  tick minor ticks 1
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 1.0
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel on
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.000000
+@    xaxis  ticklabel font 0
+@    xaxis  ticklabel color 1
+@    xaxis  tick place both
+@    xaxis  tick spec type none
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1.0
+@    yaxis  label ""
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 1.000000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 5
+@    yaxis  tick minor ticks 1
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 1.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.500000
+@    yaxis  ticklabel on
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 1.000000
+@    yaxis  ticklabel font 0
+@    yaxis  ticklabel color 1
+@    yaxis  tick place both
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend on
+@    legend loctype view
+@    legend 0.85, 0.8
+@    legend box color 1
+@    legend box pattern 1
+@    legend box linewidth 1.0
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 0
+@    legend char size 1.000000
+@    legend color 1
+@    legend length 4
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.0
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s0 hidden true
+@    s0 type xy
+@    s0 symbol 0
+@    s0 symbol size 1.000000
+@    s0 symbol color 1
+@    s0 symbol pattern 1
+@    s0 symbol fill color 1
+@    s0 symbol fill pattern 0
+@    s0 symbol linewidth 1.0
+@    s0 symbol linestyle 1
+@    s0 symbol char 65
+@    s0 symbol char font 0
+@    s0 symbol skip 0
+@    s0 line type 1
+@    s0 line linestyle 1
+@    s0 line linewidth 1.0
+@    s0 line color 1
+@    s0 line pattern 1
+@    s0 baseline type 0
+@    s0 baseline off
+@    s0 dropline off
+@    s0 fill type 0
+@    s0 fill rule 0
+@    s0 fill color 1
+@    s0 fill pattern 1
+@    s0 avalue off
+@    s0 avalue type 2
+@    s0 avalue char size 1.000000
+@    s0 avalue font 0
+@    s0 avalue color 1
+@    s0 avalue rot 0
+@    s0 avalue format general
+@    s0 avalue prec 3
+@    s0 avalue prepend ""
+@    s0 avalue append ""
+@    s0 avalue offset 0.000000 , 0.000000
+@    s0 errorbar on
+@    s0 errorbar place both
+@    s0 errorbar color 1
+@    s0 errorbar pattern 1
+@    s0 errorbar size 1.000000
+@    s0 errorbar linewidth 1.0
+@    s0 errorbar linestyle 1
+@    s0 errorbar riser linewidth 1.0
+@    s0 errorbar riser linestyle 1
+@    s0 errorbar riser clip off
+@    s0 errorbar riser clip length 0.100000
+@    s0 comment "Cols 1:4"
+@    s0 legend  "HF"
+@    s1 hidden true
+@    s1 type xy
+@    s1 symbol 0
+@    s1 symbol size 1.000000
+@    s1 symbol color 2
+@    s1 symbol pattern 1
+@    s1 symbol fill color 2
+@    s1 symbol fill pattern 0
+@    s1 symbol linewidth 1.0
+@    s1 symbol linestyle 1
+@    s1 symbol char 65
+@    s1 symbol char font 0
+@    s1 symbol skip 0
+@    s1 line type 1
+@    s1 line linestyle 1
+@    s1 line linewidth 1.0
+@    s1 line color 2
+@    s1 line pattern 1
+@    s1 baseline type 0
+@    s1 baseline off
+@    s1 dropline off
+@    s1 fill type 0
+@    s1 fill rule 0
+@    s1 fill color 1
+@    s1 fill pattern 1
+@    s1 avalue off
+@    s1 avalue type 2
+@    s1 avalue char size 1.000000
+@    s1 avalue font 0
+@    s1 avalue color 1
+@    s1 avalue rot 0
+@    s1 avalue format general
+@    s1 avalue prec 3
+@    s1 avalue prepend ""
+@    s1 avalue append ""
+@    s1 avalue offset 0.000000 , 0.000000
+@    s1 errorbar on
+@    s1 errorbar place both
+@    s1 errorbar color 2
+@    s1 errorbar pattern 1
+@    s1 errorbar size 1.000000
+@    s1 errorbar linewidth 1.0
+@    s1 errorbar linestyle 1
+@    s1 errorbar riser linewidth 1.0
+@    s1 errorbar riser linestyle 1
+@    s1 errorbar riser clip off
+@    s1 errorbar riser clip length 0.100000
+@    s1 comment "Cols 1:5"
+@    s1 legend  "CCSD"
+@    s2 hidden true
+@    s2 type xy
+@    s2 symbol 0
+@    s2 symbol size 1.000000
+@    s2 symbol color 3
+@    s2 symbol pattern 1
+@    s2 symbol fill color 3
+@    s2 symbol fill pattern 0
+@    s2 symbol linewidth 1.0
+@    s2 symbol linestyle 1
+@    s2 symbol char 65
+@    s2 symbol char font 0
+@    s2 symbol skip 0
+@    s2 line type 1
+@    s2 line linestyle 1
+@    s2 line linewidth 1.0
+@    s2 line color 3
+@    s2 line pattern 1
+@    s2 baseline type 0
+@    s2 baseline off
+@    s2 dropline off
+@    s2 fill type 0
+@    s2 fill rule 0
+@    s2 fill color 1
+@    s2 fill pattern 1
+@    s2 avalue off
+@    s2 avalue type 2
+@    s2 avalue char size 1.000000
+@    s2 avalue font 0
+@    s2 avalue color 1
+@    s2 avalue rot 0
+@    s2 avalue format general
+@    s2 avalue prec 3
+@    s2 avalue prepend ""
+@    s2 avalue append ""
+@    s2 avalue offset 0.000000 , 0.000000
+@    s2 errorbar on
+@    s2 errorbar place both
+@    s2 errorbar color 3
+@    s2 errorbar pattern 1
+@    s2 errorbar size 1.000000
+@    s2 errorbar linewidth 1.0
+@    s2 errorbar linestyle 1
+@    s2 errorbar riser linewidth 1.0
+@    s2 errorbar riser linestyle 1
+@    s2 errorbar riser clip off
+@    s2 errorbar riser clip length 0.100000
+@    s2 comment "Cols 1:6"
+@    s2 legend  "(T)/AVTZ"
+@    s3 hidden true
+@    s3 type xy
+@    s3 symbol 0
+@    s3 symbol size 1.000000
+@    s3 symbol color 4
+@    s3 symbol pattern 1
+@    s3 symbol fill color 4
+@    s3 symbol fill pattern 0
+@    s3 symbol linewidth 1.0
+@    s3 symbol linestyle 1
+@    s3 symbol char 65
+@    s3 symbol char font 0
+@    s3 symbol skip 0
+@    s3 line type 1
+@    s3 line linestyle 1
+@    s3 line linewidth 1.0
+@    s3 line color 4
+@    s3 line pattern 1
+@    s3 baseline type 0
+@    s3 baseline off
+@    s3 dropline off
+@    s3 fill type 0
+@    s3 fill rule 0
+@    s3 fill color 1
+@    s3 fill pattern 1
+@    s3 avalue off
+@    s3 avalue type 2
+@    s3 avalue char size 1.000000
+@    s3 avalue font 0
+@    s3 avalue color 1
+@    s3 avalue rot 0
+@    s3 avalue format general
+@    s3 avalue prec 3
+@    s3 avalue prepend ""
+@    s3 avalue append ""
+@    s3 avalue offset 0.000000 , 0.000000
+@    s3 errorbar on
+@    s3 errorbar place both
+@    s3 errorbar color 4
+@    s3 errorbar pattern 1
+@    s3 errorbar size 1.000000
+@    s3 errorbar linewidth 1.0
+@    s3 errorbar linestyle 1
+@    s3 errorbar riser linewidth 1.0
+@    s3 errorbar riser linestyle 1
+@    s3 errorbar riser clip off
+@    s3 errorbar riser clip length 0.100000
+@    s3 comment "Cols 1:4"
+@    s3 legend  "HF (from MP2)"
+@    s4 hidden true
+@    s4 type xy
+@    s4 symbol 0
+@    s4 symbol size 1.000000
+@    s4 symbol color 5
+@    s4 symbol pattern 1
+@    s4 symbol fill color 5
+@    s4 symbol fill pattern 0
+@    s4 symbol linewidth 1.0
+@    s4 symbol linestyle 1
+@    s4 symbol char 65
+@    s4 symbol char font 0
+@    s4 symbol skip 0
+@    s4 line type 1
+@    s4 line linestyle 1
+@    s4 line linewidth 1.0
+@    s4 line color 5
+@    s4 line pattern 1
+@    s4 baseline type 0
+@    s4 baseline off
+@    s4 dropline off
+@    s4 fill type 0
+@    s4 fill rule 0
+@    s4 fill color 1
+@    s4 fill pattern 1
+@    s4 avalue off
+@    s4 avalue type 2
+@    s4 avalue char size 1.000000
+@    s4 avalue font 0
+@    s4 avalue color 1
+@    s4 avalue rot 0
+@    s4 avalue format general
+@    s4 avalue prec 3
+@    s4 avalue prepend ""
+@    s4 avalue append ""
+@    s4 avalue offset 0.000000 , 0.000000
+@    s4 errorbar on
+@    s4 errorbar place both
+@    s4 errorbar color 5
+@    s4 errorbar pattern 1
+@    s4 errorbar size 1.000000
+@    s4 errorbar linewidth 1.0
+@    s4 errorbar linestyle 1
+@    s4 errorbar riser linewidth 1.0
+@    s4 errorbar riser linestyle 1
+@    s4 errorbar riser clip off
+@    s4 errorbar riser clip length 0.100000
+@    s4 comment "Cols 1:5"
+@    s4 legend  "MP2/AVTZ"
+@    s5 hidden true
+@    s5 type xy
+@    s5 symbol 0
+@    s5 symbol size 1.000000
+@    s5 symbol color 6
+@    s5 symbol pattern 1
+@    s5 symbol fill color 6
+@    s5 symbol fill pattern 0
+@    s5 symbol linewidth 1.0
+@    s5 symbol linestyle 1
+@    s5 symbol char 65
+@    s5 symbol char font 0
+@    s5 symbol skip 0
+@    s5 line type 1
+@    s5 line linestyle 1
+@    s5 line linewidth 1.0
+@    s5 line color 6
+@    s5 line pattern 1
+@    s5 baseline type 0
+@    s5 baseline off
+@    s5 dropline off
+@    s5 fill type 0
+@    s5 fill rule 0
+@    s5 fill color 1
+@    s5 fill pattern 1
+@    s5 avalue off
+@    s5 avalue type 2
+@    s5 avalue char size 1.000000
+@    s5 avalue font 0
+@    s5 avalue color 1
+@    s5 avalue rot 0
+@    s5 avalue format general
+@    s5 avalue prec 3
+@    s5 avalue prepend ""
+@    s5 avalue append ""
+@    s5 avalue offset 0.000000 , 0.000000
+@    s5 errorbar on
+@    s5 errorbar place both
+@    s5 errorbar color 6
+@    s5 errorbar pattern 1
+@    s5 errorbar size 1.000000
+@    s5 errorbar linewidth 1.0
+@    s5 errorbar linestyle 1
+@    s5 errorbar riser linewidth 1.0
+@    s5 errorbar riser linestyle 1
+@    s5 errorbar riser clip off
+@    s5 errorbar riser clip length 0.100000
+@    s5 comment "Cols 1:2"
+@    s5 legend  "MP2D correction only "
+@    s6 hidden false
+@    s6 type xy
+@    s6 symbol 0
+@    s6 symbol size 1.000000
+@    s6 symbol color 7
+@    s6 symbol pattern 1
+@    s6 symbol fill color 7
+@    s6 symbol fill pattern 0
+@    s6 symbol linewidth 1.0
+@    s6 symbol linestyle 1
+@    s6 symbol char 65
+@    s6 symbol char font 0
+@    s6 symbol skip 0
+@    s6 line type 1
+@    s6 line linestyle 1
+@    s6 line linewidth 1.0
+@    s6 line color 7
+@    s6 line pattern 1
+@    s6 baseline type 0
+@    s6 baseline off
+@    s6 dropline off
+@    s6 fill type 0
+@    s6 fill rule 0
+@    s6 fill color 1
+@    s6 fill pattern 1
+@    s6 avalue off
+@    s6 avalue type 2
+@    s6 avalue char size 1.000000
+@    s6 avalue font 0
+@    s6 avalue color 1
+@    s6 avalue rot 0
+@    s6 avalue format general
+@    s6 avalue prec 3
+@    s6 avalue prepend ""
+@    s6 avalue append ""
+@    s6 avalue offset 0.000000 , 0.000000
+@    s6 errorbar on
+@    s6 errorbar place both
+@    s6 errorbar color 7
+@    s6 errorbar pattern 1
+@    s6 errorbar size 1.000000
+@    s6 errorbar linewidth 1.0
+@    s6 errorbar linestyle 1
+@    s6 errorbar riser linewidth 1.0
+@    s6 errorbar riser linestyle 1
+@    s6 errorbar riser clip off
+@    s6 errorbar riser clip length 0.100000
+@    s6 comment "Cols 1:2"
+@    s6 legend  "RPA(PBE)+RSE"
+@    s7 hidden false
+@    s7 type xy
+@    s7 symbol 0
+@    s7 symbol size 1.000000
+@    s7 symbol color 8
+@    s7 symbol pattern 1
+@    s7 symbol fill color 8
+@    s7 symbol fill pattern 0
+@    s7 symbol linewidth 1.0
+@    s7 symbol linestyle 1
+@    s7 symbol char 65
+@    s7 symbol char font 0
+@    s7 symbol skip 0
+@    s7 line type 1
+@    s7 line linestyle 1
+@    s7 line linewidth 1.0
+@    s7 line color 8
+@    s7 line pattern 1
+@    s7 baseline type 0
+@    s7 baseline off
+@    s7 dropline off
+@    s7 fill type 0
+@    s7 fill rule 0
+@    s7 fill color 1
+@    s7 fill pattern 1
+@    s7 avalue off
+@    s7 avalue type 2
+@    s7 avalue char size 1.000000
+@    s7 avalue font 0
+@    s7 avalue color 1
+@    s7 avalue rot 0
+@    s7 avalue format general
+@    s7 avalue prec 3
+@    s7 avalue prepend ""
+@    s7 avalue append ""
+@    s7 avalue offset 0.000000 , 0.000000
+@    s7 errorbar on
+@    s7 errorbar place both
+@    s7 errorbar color 8
+@    s7 errorbar pattern 1
+@    s7 errorbar size 1.000000
+@    s7 errorbar linewidth 1.0
+@    s7 errorbar linestyle 1
+@    s7 errorbar riser linewidth 1.0
+@    s7 errorbar riser linestyle 1
+@    s7 errorbar riser clip off
+@    s7 errorbar riser clip length 0.100000
+@    s7 comment "Cols 1:2"
+@    s7 legend  "RPA(PBE0)+RSE"
+@    s8 hidden false
+@    s8 type xy
+@    s8 symbol 0
+@    s8 symbol size 1.000000
+@    s8 symbol color 9
+@    s8 symbol pattern 1
+@    s8 symbol fill color 9
+@    s8 symbol fill pattern 0
+@    s8 symbol linewidth 1.0
+@    s8 symbol linestyle 1
+@    s8 symbol char 65
+@    s8 symbol char font 0
+@    s8 symbol skip 0
+@    s8 line type 1
+@    s8 line linestyle 1
+@    s8 line linewidth 1.0
+@    s8 line color 9
+@    s8 line pattern 1
+@    s8 baseline type 0
+@    s8 baseline off
+@    s8 dropline off
+@    s8 fill type 0
+@    s8 fill rule 0
+@    s8 fill color 1
+@    s8 fill pattern 1
+@    s8 avalue off
+@    s8 avalue type 2
+@    s8 avalue char size 1.000000
+@    s8 avalue font 0
+@    s8 avalue color 1
+@    s8 avalue rot 0
+@    s8 avalue format general
+@    s8 avalue prec 3
+@    s8 avalue prepend ""
+@    s8 avalue append ""
+@    s8 avalue offset 0.000000 , 0.000000
+@    s8 errorbar on
+@    s8 errorbar place both
+@    s8 errorbar color 9
+@    s8 errorbar pattern 1
+@    s8 errorbar size 1.000000
+@    s8 errorbar linewidth 1.0
+@    s8 errorbar linestyle 1
+@    s8 errorbar riser linewidth 1.0
+@    s8 errorbar riser linestyle 1
+@    s8 errorbar riser clip off
+@    s8 errorbar riser clip length 0.100000
+@    s8 comment "Cols 1:2"
+@    s8 legend  "RPA(SCAN)+RSE"
+@    s9 hidden false
+@    s9 type xy
+@    s9 symbol 0
+@    s9 symbol size 1.000000
+@    s9 symbol color 10
+@    s9 symbol pattern 1
+@    s9 symbol fill color 10
+@    s9 symbol fill pattern 0
+@    s9 symbol linewidth 1.0
+@    s9 symbol linestyle 1
+@    s9 symbol char 65
+@    s9 symbol char font 0
+@    s9 symbol skip 0
+@    s9 line type 1
+@    s9 line linestyle 1
+@    s9 line linewidth 1.0
+@    s9 line color 10
+@    s9 line pattern 1
+@    s9 baseline type 0
+@    s9 baseline off
+@    s9 dropline off
+@    s9 fill type 0
+@    s9 fill rule 0
+@    s9 fill color 1
+@    s9 fill pattern 1
+@    s9 avalue off
+@    s9 avalue type 2
+@    s9 avalue char size 1.000000
+@    s9 avalue font 0
+@    s9 avalue color 1
+@    s9 avalue rot 0
+@    s9 avalue format general
+@    s9 avalue prec 3
+@    s9 avalue prepend ""
+@    s9 avalue append ""
+@    s9 avalue offset 0.000000 , 0.000000
+@    s9 errorbar on
+@    s9 errorbar place both
+@    s9 errorbar color 10
+@    s9 errorbar pattern 1
+@    s9 errorbar size 1.000000
+@    s9 errorbar linewidth 1.0
+@    s9 errorbar linestyle 1
+@    s9 errorbar riser linewidth 1.0
+@    s9 errorbar riser linestyle 1
+@    s9 errorbar riser clip off
+@    s9 errorbar riser clip length 0.100000
+@    s9 comment "Cols 1:2"
+@    s9 legend  "RPA(SCAN0)+RSE"
+@    s10 hidden false
+@    s10 type xy
+@    s10 symbol 0
+@    s10 symbol size 1.000000
+@    s10 symbol color 11
+@    s10 symbol pattern 1
+@    s10 symbol fill color 11
+@    s10 symbol fill pattern 0
+@    s10 symbol linewidth 1.0
+@    s10 symbol linestyle 1
+@    s10 symbol char 65
+@    s10 symbol char font 0
+@    s10 symbol skip 0
+@    s10 line type 1
+@    s10 line linestyle 1
+@    s10 line linewidth 1.0
+@    s10 line color 11
+@    s10 line pattern 1
+@    s10 baseline type 0
+@    s10 baseline off
+@    s10 dropline off
+@    s10 fill type 0
+@    s10 fill rule 0
+@    s10 fill color 1
+@    s10 fill pattern 1
+@    s10 avalue off
+@    s10 avalue type 2
+@    s10 avalue char size 1.000000
+@    s10 avalue font 0
+@    s10 avalue color 1
+@    s10 avalue rot 0
+@    s10 avalue format general
+@    s10 avalue prec 3
+@    s10 avalue prepend ""
+@    s10 avalue append ""
+@    s10 avalue offset 0.000000 , 0.000000
+@    s10 errorbar on
+@    s10 errorbar place both
+@    s10 errorbar color 11
+@    s10 errorbar pattern 1
+@    s10 errorbar size 1.000000
+@    s10 errorbar linewidth 1.0
+@    s10 errorbar linestyle 1
+@    s10 errorbar riser linewidth 1.0
+@    s10 errorbar riser linestyle 1
+@    s10 errorbar riser clip off
+@    s10 errorbar riser clip length 0.100000
+@    s10 comment "Cols 1:2"
+@    s10 legend  "RPA(HF)"
+@    s11 hidden false
+@    s11 type xy
+@    s11 symbol 0
+@    s11 symbol size 1.000000
+@    s11 symbol color 12
+@    s11 symbol pattern 1
+@    s11 symbol fill color 12
+@    s11 symbol fill pattern 0
+@    s11 symbol linewidth 1.0
+@    s11 symbol linestyle 1
+@    s11 symbol char 65
+@    s11 symbol char font 0
+@    s11 symbol skip 0
+@    s11 line type 1
+@    s11 line linestyle 1
+@    s11 line linewidth 1.0
+@    s11 line color 12
+@    s11 line pattern 1
+@    s11 baseline type 0
+@    s11 baseline off
+@    s11 dropline off
+@    s11 fill type 0
+@    s11 fill rule 0
+@    s11 fill color 1
+@    s11 fill pattern 1
+@    s11 avalue off
+@    s11 avalue type 2
+@    s11 avalue char size 1.000000
+@    s11 avalue font 0
+@    s11 avalue color 1
+@    s11 avalue rot 0
+@    s11 avalue format general
+@    s11 avalue prec 3
+@    s11 avalue prepend ""
+@    s11 avalue append ""
+@    s11 avalue offset 0.000000 , 0.000000
+@    s11 errorbar on
+@    s11 errorbar place both
+@    s11 errorbar color 12
+@    s11 errorbar pattern 1
+@    s11 errorbar size 1.000000
+@    s11 errorbar linewidth 1.0
+@    s11 errorbar linestyle 1
+@    s11 errorbar riser linewidth 1.0
+@    s11 errorbar riser linestyle 1
+@    s11 errorbar riser clip off
+@    s11 errorbar riser clip length 0.100000
+@    s11 comment "copy of setdata G0.S0"
+@    s11 legend  "CCSD"
+@    s12 hidden false
+@    s12 type xy
+@    s12 symbol 0
+@    s12 symbol size 1.000000
+@    s12 symbol color 1
+@    s12 symbol pattern 1
+@    s12 symbol fill color 1
+@    s12 symbol fill pattern 0
+@    s12 symbol linewidth 1.0
+@    s12 symbol linestyle 1
+@    s12 symbol char 65
+@    s12 symbol char font 0
+@    s12 symbol skip 0
+@    s12 line type 1
+@    s12 line linestyle 1
+@    s12 line linewidth 1.5
+@    s12 line color 1
+@    s12 line pattern 1
+@    s12 baseline type 0
+@    s12 baseline off
+@    s12 dropline off
+@    s12 fill type 0
+@    s12 fill rule 0
+@    s12 fill color 1
+@    s12 fill pattern 1
+@    s12 avalue off
+@    s12 avalue type 2
+@    s12 avalue char size 1.000000
+@    s12 avalue font 0
+@    s12 avalue color 1
+@    s12 avalue rot 0
+@    s12 avalue format general
+@    s12 avalue prec 3
+@    s12 avalue prepend ""
+@    s12 avalue append ""
+@    s12 avalue offset 0.000000 , 0.000000
+@    s12 errorbar on
+@    s12 errorbar place both
+@    s12 errorbar color 1
+@    s12 errorbar pattern 1
+@    s12 errorbar size 1.000000
+@    s12 errorbar linewidth 1.0
+@    s12 errorbar linestyle 1
+@    s12 errorbar riser linewidth 1.0
+@    s12 errorbar riser linestyle 1
+@    s12 errorbar riser clip off
+@    s12 errorbar riser clip length 0.100000
+@    s12 comment "copy of setdata G0.S0"
+@    s12 legend  "CCSD(T)"
+@    s13 hidden false
+@    s13 type xy
+@    s13 symbol 0
+@    s13 symbol size 1.000000
+@    s13 symbol color 14
+@    s13 symbol pattern 1
+@    s13 symbol fill color 14
+@    s13 symbol fill pattern 0
+@    s13 symbol linewidth 1.0
+@    s13 symbol linestyle 1
+@    s13 symbol char 65
+@    s13 symbol char font 0
+@    s13 symbol skip 0
+@    s13 line type 1
+@    s13 line linestyle 1
+@    s13 line linewidth 1.0
+@    s13 line color 14
+@    s13 line pattern 1
+@    s13 baseline type 0
+@    s13 baseline off
+@    s13 dropline off
+@    s13 fill type 0
+@    s13 fill rule 0
+@    s13 fill color 1
+@    s13 fill pattern 1
+@    s13 avalue off
+@    s13 avalue type 2
+@    s13 avalue char size 1.000000
+@    s13 avalue font 0
+@    s13 avalue color 1
+@    s13 avalue rot 0
+@    s13 avalue format general
+@    s13 avalue prec 3
+@    s13 avalue prepend ""
+@    s13 avalue append ""
+@    s13 avalue offset 0.000000 , 0.000000
+@    s13 errorbar on
+@    s13 errorbar place both
+@    s13 errorbar color 14
+@    s13 errorbar pattern 1
+@    s13 errorbar size 1.000000
+@    s13 errorbar linewidth 1.0
+@    s13 errorbar linestyle 1
+@    s13 errorbar riser linewidth 1.0
+@    s13 errorbar riser linestyle 1
+@    s13 errorbar riser clip off
+@    s13 errorbar riser clip length 0.100000
+@    s13 comment "copy of setdata G0.S3"
+@    s13 legend  "MP2"
+@    s14 hidden false
+@    s14 type xy
+@    s14 symbol 0
+@    s14 symbol size 1.000000
+@    s14 symbol color 15
+@    s14 symbol pattern 1
+@    s14 symbol fill color 15
+@    s14 symbol fill pattern 0
+@    s14 symbol linewidth 1.0
+@    s14 symbol linestyle 1
+@    s14 symbol char 65
+@    s14 symbol char font 0
+@    s14 symbol skip 0
+@    s14 line type 1
+@    s14 line linestyle 1
+@    s14 line linewidth 1.0
+@    s14 line color 15
+@    s14 line pattern 1
+@    s14 baseline type 0
+@    s14 baseline off
+@    s14 dropline off
+@    s14 fill type 0
+@    s14 fill rule 0
+@    s14 fill color 1
+@    s14 fill pattern 1
+@    s14 avalue off
+@    s14 avalue type 2
+@    s14 avalue char size 1.000000
+@    s14 avalue font 0
+@    s14 avalue color 1
+@    s14 avalue rot 0
+@    s14 avalue format general
+@    s14 avalue prec 3
+@    s14 avalue prepend ""
+@    s14 avalue append ""
+@    s14 avalue offset 0.000000 , 0.000000
+@    s14 errorbar on
+@    s14 errorbar place both
+@    s14 errorbar color 15
+@    s14 errorbar pattern 1
+@    s14 errorbar size 1.000000
+@    s14 errorbar linewidth 1.0
+@    s14 errorbar linestyle 1
+@    s14 errorbar riser linewidth 1.0
+@    s14 errorbar riser linestyle 1
+@    s14 errorbar riser clip off
+@    s14 errorbar riser clip length 0.100000
+@    s14 comment "copy of setdata G0.S13"
+@    s14 legend  "MP2D"
+@target G0.S0
+@type xy
+4.381653 1.8060062
+4.6897188 2.9756608
+4.6897188 4.1453138
+4.6897203 5.3149714
+4.6897204 6.4846298
+4.8542918 7.863234
+4.8798752 8.201289
+4.8798753 8.539347
+4.8798768 8.877398
+4.8798768 9.215449
+6.0648207 9.856496
+6.6028026 9.680147
+6.8108115 9.4715
+7.3245439 9.458601
+7.3245439 9.445703
+7.3245467 9.432804
+7.3245467 9.419905
+7.6466902 9.406504
+7.6466902 9.393103
+7.646693 9.379703
+7.646693 9.366302
+7.9181152 9.364802
+7.9370588 9.350429
+7.9370588 9.336056
+7.9370597 9.321683
+7.9370597 9.307311
+7.947854 9.285795
+8.165894 9.322998
+8.2328586 9.316331
+8.2328586 9.309665
+8.2328595 9.302997
+8.2328595 9.296331
+8.2752795 9.329986
+8.2932584 9.290783
+8.9719854 9.275311
+9.0351772 9.244312
+9.1537638 9.27346
+9.2954905 9.312006
+9.3615069 9.278632
+9.3873735 9.34883
+9.5735705 9.350973
+9.5735705 9.353116
+9.5735726 9.355258
+9.5735726 9.3574
+9.8078049 9.335611
+9.9032591 9.332007
+10.272462 9.336569
+10.272462 9.34113
+10.272465 9.345691
+10.272465 9.350252
+10.479836 9.360644
+10.479836 9.371035
+10.479837 9.381427
+10.479837 9.391819
+10.506826 9.373206
+10.55227 9.37711
+10.55227 9.381015
+10.552271 9.384919
+10.552271 9.388824
+10.597768 9.40281
+10.621616 9.39357
+10.884055 9.391335
+10.884055 9.3891
+10.884058 9.386865
+10.884058 9.384629
+11.227186 9.384114
+11.227189 9.383598
+11.294246 9.372998
+11.316444 9.375527
+11.431706 9.386476
+11.511985 9.38841
+11.80109 9.393774
+11.854553 9.408006
+11.891152 9.4171
+11.892728 9.419615
+11.892728 9.422131
+11.89273 9.424647
+11.89273 9.427162
+11.913808 9.435447
+11.954353 9.425937
+12.081057 9.423613
+12.081057 9.421288
+12.081058 9.418963
+12.081058 9.416639
+12.129643 9.415921
+12.129643 9.415204
+12.129644 9.414488
+12.129644 9.41377
+12.288125 9.413201
+12.288126 9.412632
+12.288126 9.412063
+12.288126 9.411492
+12.307337 9.406405
+12.38281 9.409704
+12.394698 9.410497
+12.394698 9.411289
+12.394701 9.412081
+12.394701 9.412874
+12.436584 9.413804
+12.436584 9.414734
+12.436585 9.415664
+12.436585 9.416595
+12.453271 9.428971
+12.470205 9.425177
+12.470205 9.421383
+12.470206 9.417589
+12.470206 9.413795
+12.798372 9.41578
+12.885392 9.409989
+13.146759 9.410067
+13.146759 9.410147
+13.146761 9.410226
+13.146761 9.410306
+13.270954 9.412208
+13.270954 9.41411
+13.270957 9.416012
+13.270957 9.417915
+13.335178 9.41187
+13.403536 9.412529
+13.403536 9.413186
+13.403538 9.413843
+13.403538 9.414501
+13.481495 9.410057
+13.618504 9.412739
+13.655137 9.410496
+13.895301 9.407645
+13.895301 9.404794
+13.895303 9.401944
+13.895303 9.399094
+13.936494 9.395921
+13.94704 9.392694
+13.950339 9.388152
+13.96639 9.391135
+13.973774 9.39286
+13.973774 9.394585
+13.973776 9.39631
+13.973776 9.398035
+13.981812 9.394572
+14.091118 9.392492
+14.134034 9.391514
+14.221424 9.389514
+14.358582 9.389351
+14.358582 9.389188
+14.358584 9.389026
+14.358584 9.388863
+14.408747 9.385484
+14.41484 9.388234
+14.460065 9.387855
+14.508945 9.393746
+14.571059 9.390337
+14.600755 9.387251
+14.614832 9.384746
+14.614835 9.382241
+14.707869 9.381799
+14.707869 9.381357
+14.707872 9.380915
+14.707872 9.380475
+14.7648 9.381322
+14.799482 9.384309
+14.81087 9.387106
+14.836365 9.383618
+15.001852 9.384109
+15.032016 9.385313
+15.056583 9.385301
+15.056586 9.38529
+15.225569 9.385693
+15.225569 9.386097
+15.225571 9.3865
+15.225571 9.386904
+15.330219 9.385937
+15.330219 9.38497
+15.330219 9.384003
+15.330219 9.383037
+15.41956 9.384176
+15.468774 9.383116
+15.539944 9.383334
+15.539944 9.383552
+15.539946 9.38377
+15.539946 9.383988
+15.569952 9.381243
+15.569952 9.378497
+15.592753 9.379252
+15.613283 9.379456
+15.628134 9.378434
+15.669331 9.380543
+15.712661 9.378039
+15.769854 9.378084
+15.769854 9.378128
+15.769857 9.378174
+15.769857 9.378218
+15.955869 9.376328
+16.099964 9.373989
+16.115287 9.372866
+16.148111 9.372631
+16.148111 9.372398
+16.148113 9.372165
+16.148113 9.37193
+16.196571 9.373148
+16.206985 9.373443
+16.224269 9.37323
+16.225459 9.373955
+16.237644 9.372964
+16.237644 9.371972
+16.237646 9.37098
+16.237646 9.369988
+16.253064 9.370932
+16.269741 9.371996
+16.34779 9.370796
+16.39568 9.37183
+16.39568 9.372865
+16.395682 9.373898
+16.395682 9.374932
+16.450109 9.376362
+16.489701 9.378801
+16.526428 9.378947
+16.555904 9.378956
+16.555904 9.378965
+16.555904 9.378975
+16.555904 9.378983
+16.573437 9.377794
+16.637522 9.377884
+16.692377 9.376179
+16.724125 9.376719
+16.724125 9.377258
+16.724128 9.377798
+16.724128 9.378338
+16.819853 9.377454
+16.819853 9.376569
+16.819854 9.375685
+16.819854 9.3748
+16.865245 9.375408
+16.865245 9.376017
+16.874627 9.377571
+16.886708 9.379665
+16.886708 9.381759
+16.928007 9.383396
+16.930266 9.385026
+16.930266 9.386657
+16.930395 9.389534
+16.959525 9.388276
+17.231596 9.388277
+17.231596 9.388279
+17.231597 9.38828
+17.231597 9.388282
+17.257441 9.387736
+17.288923 9.3892
+17.331446 9.387944
+17.435404 9.38771
+17.435404 9.387476
+17.435407 9.387241
+17.435407 9.387007
+17.631887 9.387629
+17.642062 9.386415
+17.728158 9.385999
+17.728158 9.385583
+17.728161 9.385167
+17.728161 9.384751
+17.798416 9.38535
+17.798416 9.38595
+17.798417 9.386549
+17.798417 9.387149
+17.807696 9.38669
+17.811103 9.387707
+17.840363 9.386674
+17.87977 9.386718
+17.87977 9.386762
+17.879771 9.386805
+17.879772 9.38685
+17.906756 9.385752
+17.907524 9.386713
+17.921844 9.386917
+17.921844 9.387121
+17.921845 9.387528
+17.938737 9.386924
+17.97478 9.388077
+17.998901 9.388253
+17.998901 9.388427
+17.998904 9.388602
+17.998904 9.388777
+18.067309 9.389394
+18.067309 9.39001
+18.068303 9.390732
+18.082572 9.390236
+18.106825 9.390725
+18.106825 9.391213
+18.106826 9.391703
+18.106826 9.392192
+18.143505 9.393008
+18.18887 9.392967
+18.18887 9.392927
+18.342638 9.39293
+18.342638 9.392932
+18.34264 9.392934
+18.34264 9.392938
+18.416615 9.391735
+18.422417 9.39187
+18.44813 9.392869
+18.495263 9.39526
+18.542607 9.39522
+18.558073 9.394131
+18.560765 9.393894
+&
+@target G0.S1
+@type xy
+4.381653 -5.0482121
+4.6897188 -7.1887593
+4.6897188 -9.329308
+4.6897203 -11.46986
+4.6897204 -13.610411
+4.8542918 -17.164084
+4.8798752 -18.674114
+4.8798753 -20.184151
+4.8798768 -21.69417
+4.8798768 -23.204197
+6.0648207 -24.31878
+6.6028026 -24.539947
+6.8108115 -24.722415
+7.3245439 -24.791601
+7.3245439 -24.860787
+7.3245467 -24.929974
+7.3245467 -24.99916
+7.6466902 -25.043126
+7.6466902 -25.087093
+7.646693 -25.131059
+7.646693 -25.175026
+7.9181152 -25.25634
+7.9370588 -25.301864
+7.9370588 -25.347386
+7.9370597 -25.392909
+7.9370597 -25.438432
+7.947854 -25.500829
+8.165894 -25.607061
+8.2328586 -25.638444
+8.2328586 -25.669825
+8.2328595 -25.701207
+8.2328595 -25.732588
+8.2752795 -25.791398
+8.2932584 -25.838243
+8.9719854 -25.879107
+9.0351772 -25.90354
+9.1537638 -25.94528
+9.2954905 -25.989157
+9.3615069 -26.009808
+9.3873735 -26.047456
+9.5735705 -26.062192
+9.5735705 -26.076928
+9.5735726 -26.091664
+9.5735726 -26.1064
+9.8078049 -26.119944
+9.9032591 -26.142487
+10.272462 -26.150571
+10.272462 -26.158655
+10.272465 -26.166738
+10.272465 -26.174822
+10.479836 -26.183737
+10.479836 -26.192653
+10.479837 -26.201568
+10.479837 -26.210483
+10.506826 -26.217947
+10.55227 -26.22515
+10.55227 -26.232354
+10.552271 -26.239557
+10.552271 -26.24676
+10.597768 -26.261242
+10.621616 -26.269504
+10.884055 -26.273768
+10.884055 -26.278033
+10.884058 -26.282298
+10.884058 -26.286564
+11.227186 -26.293983
+11.227189 -26.301403
+11.294246 -26.307827
+11.316444 -26.315916
+11.431706 -26.328687
+11.511985 -26.335293
+11.80109 -26.342744
+11.854553 -26.351108
+11.891152 -26.361223
+11.892728 -26.364831
+11.892728 -26.368438
+11.89273 -26.372046
+11.89273 -26.375654
+11.913808 -26.384425
+11.954353 -26.387671
+12.081057 -26.389879
+12.081057 -26.392089
+12.081058 -26.394299
+12.081058 -26.396507
+12.129643 -26.399356
+12.129643 -26.402205
+12.129644 -26.405054
+12.129644 -26.407903
+12.288125 -26.409981
+12.288126 -26.41206
+12.288126 -26.414138
+12.288126 -26.416218
+12.307337 -26.419616
+12.38281 -26.425918
+12.394698 -26.428495
+12.394698 -26.431071
+12.394701 -26.433649
+12.394701 -26.436225
+12.436584 -26.438719
+12.436584 -26.441212
+12.436585 -26.443705
+12.436585 -26.446199
+12.453271 -26.452603
+12.470205 -26.453727
+12.470205 -26.454852
+12.470206 -26.455976
+12.470206 -26.4571
+12.798372 -26.461251
+12.885392 -26.46318
+13.146759 -26.465136
+13.146759 -26.467091
+13.146761 -26.469046
+13.146761 -26.471
+13.270954 -26.4728
+13.270954 -26.4746
+13.270957 -26.4764
+13.270957 -26.478199
+13.335178 -26.479538
+13.403536 -26.481068
+13.403536 -26.4826
+13.403538 -26.484131
+13.403538 -26.485661
+13.481495 -26.487265
+13.618504 -26.491078
+13.655137 -26.493002
+13.895301 -26.493408
+13.895301 -26.493814
+13.895303 -26.494219
+13.895303 -26.494625
+13.936494 -26.496071
+13.94704 -26.49715
+13.950339 -26.498207
+13.96639 -26.500834
+13.973774 -26.502255
+13.973774 -26.503675
+13.973776 -26.505096
+13.973776 -26.506517
+13.981812 -26.507682
+14.091118 -26.509435
+14.134034 -26.51106
+14.221424 -26.512731
+14.358582 -26.513628
+14.358582 -26.514526
+14.358584 -26.515423
+14.358584 -26.516321
+14.408747 -26.517341
+14.41484 -26.519572
+14.460065 -26.521332
+14.508945 -26.52412
+14.571059 -26.524995
+14.600755 -26.525899
+14.614832 -26.526992
+14.614835 -26.528085
+14.707869 -26.528666
+14.707869 -26.529247
+14.707872 -26.529828
+14.707872 -26.530408
+14.7648 -26.532258
+14.799482 -26.534553
+14.81087 -26.536448
+14.836365 -26.53694
+15.001852 -26.53837
+15.032016 -26.539901
+15.056583 -26.541088
+15.056586 -26.542274
+15.225569 -26.543106
+15.225569 -26.543938
+15.225571 -26.54477
+15.225571 -26.545601
+15.330219 -26.545935
+15.330219 -26.546269
+15.330219 -26.546603
+15.330219 -26.546936
+15.41956 -26.548675
+15.468774 -26.549381
+15.539944 -26.550001
+15.539944 -26.55062
+15.539946 -26.55124
+15.539946 -26.551859
+15.569952 -26.552196
+15.569952 -26.552533
+15.592753 -26.55397
+15.613283 -26.555054
+15.628134 -26.555654
+15.669331 -26.55755
+15.712661 -26.557944
+15.769854 -26.558433
+15.769854 -26.558922
+15.769857 -26.55941
+15.769857 -26.5599
+15.955869 -26.560379
+16.099964 -26.560654
+16.115287 -26.561266
+16.148111 -26.561651
+16.148111 -26.562035
+16.148113 -26.562418
+16.148113 -26.562803
+16.196571 -26.564152
+16.206985 -26.565209
+16.224269 -26.566143
+16.225459 -26.567119
+16.237644 -26.567309
+16.237644 -26.567498
+16.237646 -26.567689
+16.237646 -26.567878
+16.253064 -26.568892
+16.269741 -26.569785
+16.34779 -26.57031
+16.39568 -26.570922
+16.39568 -26.571532
+16.395682 -26.572143
+16.395682 -26.572754
+16.450109 -26.573868
+16.489701 -26.57504
+16.526428 -26.575992
+16.555904 -26.576432
+16.555904 -26.576872
+16.555904 -26.577312
+16.555904 -26.577752
+16.573437 -26.57823
+16.637522 -26.578959
+16.692377 -26.579191
+16.724125 -26.579639
+16.724125 -26.580087
+16.724128 -26.580535
+16.724128 -26.580982
+16.819853 -26.581085
+16.819853 -26.581189
+16.819854 -26.581292
+16.819854 -26.581396
+16.865245 -26.582239
+16.865245 -26.583081
+16.874627 -26.584232
+16.886708 -26.585372
+16.886708 -26.586511
+16.928007 -26.587755
+16.930266 -26.58878
+16.930266 -26.589805
+16.930395 -26.59104
+16.959525 -26.591398
+17.231596 -26.591767
+17.231596 -26.592136
+17.231597 -26.592504
+17.231597 -26.592873
+17.257441 -26.593331
+17.288923 -26.594196
+17.331446 -26.594486
+17.435404 -26.594706
+17.435404 -26.594926
+17.435407 -26.595147
+17.435407 -26.595367
+17.631887 -26.595972
+17.642062 -26.596184
+17.728158 -26.596338
+17.728158 -26.596491
+17.728161 -26.596645
+17.728161 -26.596799
+17.798416 -26.597186
+17.798416 -26.597571
+17.798417 -26.597957
+17.798417 -26.598343
+17.807696 -26.598777
+17.811103 -26.599549
+17.840363 -26.599795
+17.87977 -26.60005
+17.87977 -26.600305
+17.879771 -26.60056
+17.879772 -26.600814
+17.906756 -26.601023
+17.907524 -26.601655
+17.921844 -26.601942
+17.921844 -26.602227
+17.921845 -26.602801
+17.938737 -26.603147
+17.97478 -26.603775
+17.998901 -26.604054
+17.998901 -26.604335
+17.998904 -26.604614
+17.998904 -26.604894
+18.067309 -26.605436
+18.067309 -26.605978
+18.068303 -26.606543
+18.082572 -26.606774
+18.106825 -26.607097
+18.106825 -26.60742
+18.106826 -26.607742
+18.106826 -26.608065
+18.143505 -26.608682
+18.18887 -26.60906
+18.18887 -26.609437
+18.342638 -26.60964
+18.342638 -26.609842
+18.34264 -26.610044
+18.34264 -26.610245
+18.416615 -26.610311
+18.422417 -26.610707
+18.44813 -26.611354
+18.495263 -26.612226
+18.542607 -26.612571
+18.558073 -26.612667
+18.560765 -26.61298
+&
+@target G0.S2
+@type xy
+4.381653 -1.0290705
+4.6897188 -1.4453134
+4.6897188 -1.8615566
+4.6897203 -2.2778011
+4.6897204 -2.6940451
+4.8542918 -3.4111716
+4.8798752 -3.735463
+4.8798753 -4.059755
+4.8798768 -4.384043
+4.8798768 -4.708332
+6.0648207 -4.931401
+6.6028026 -4.98219
+6.8108115 -5.025304
+7.3245439 -5.03973
+7.3245439 -5.054155
+7.3245467 -5.068582
+7.3245467 -5.083007
+7.6466902 -5.092486
+7.6466902 -5.101965
+7.646693 -5.111443
+7.646693 -5.120922
+7.9181152 -5.13744
+7.9370588 -5.147229
+7.9370588 -5.157017
+7.9370597 -5.166805
+7.9370597 -5.176594
+7.947854 -5.19047
+8.165894 -5.211464
+8.2328586 -5.218251
+8.2328586 -5.225037
+8.2328595 -5.231823
+8.2328595 -5.238609
+8.2752795 -5.250323
+8.2932584 -5.260906
+8.9719854 -5.269793
+9.0351772 -5.275621
+9.1537638 -5.283496
+9.2954905 -5.291675
+9.3615069 -5.296855
+9.3873735 -5.303166
+9.5735705 -5.306151
+9.5735705 -5.309135
+9.5735726 -5.31212
+9.5735726 -5.315106
+9.8078049 -5.318465
+9.9032591 -5.323237
+10.272462 -5.324819
+10.272462 -5.3264
+10.272465 -5.327981
+10.272465 -5.329562
+10.479836 -5.331174
+10.479836 -5.332786
+10.479837 -5.334398
+10.479837 -5.33601
+10.506826 -5.338045
+10.55227 -5.339459
+10.55227 -5.340874
+10.552271 -5.342288
+10.552271 -5.343702
+10.597768 -5.346318
+10.621616 -5.348293
+10.884055 -5.349218
+10.884055 -5.350143
+10.884058 -5.351067
+10.884058 -5.351993
+11.227186 -5.353544
+11.227189 -5.355095
+11.294246 -5.356698
+11.316444 -5.358292
+11.431706 -5.360674
+11.511985 -5.362026
+11.80109 -5.363425
+11.854553 -5.364852
+11.891152 -5.366727
+11.892728 -5.367418
+11.892728 -5.368108
+11.89273 -5.368798
+11.89273 -5.369489
+11.913808 -5.371111
+11.954353 -5.372015
+12.081057 -5.372533
+12.081057 -5.373053
+12.081058 -5.373571
+12.081058 -5.374089
+12.129643 -5.374703
+12.129643 -5.375316
+12.129644 -5.375929
+12.129644 -5.376542
+12.288125 -5.376991
+12.288126 -5.37744
+12.288126 -5.377889
+12.288126 -5.378338
+12.307337 -5.37916
+12.38281 -5.380393
+12.394698 -5.380905
+12.394698 -5.381418
+12.394701 -5.381932
+12.394701 -5.382444
+12.436584 -5.382947
+12.436584 -5.38345
+12.436585 -5.383952
+12.436585 -5.384455
+12.453271 -5.385513
+12.470205 -5.385842
+12.470205 -5.386171
+12.470206 -5.386499
+12.470206 -5.386828
+12.798372 -5.387631
+12.885392 -5.388176
+13.146759 -5.388581
+13.146759 -5.388986
+13.146761 -5.38939
+13.146761 -5.389794
+13.270954 -5.390123
+13.270954 -5.390454
+13.270957 -5.390783
+13.270957 -5.391112
+13.335178 -5.391538
+13.403536 -5.391839
+13.403536 -5.39214
+13.403538 -5.392442
+13.403538 -5.392742
+13.481495 -5.393184
+13.618504 -5.393913
+13.655137 -5.394362
+13.895301 -5.394516
+13.895301 -5.39467
+13.895303 -5.394823
+13.895303 -5.394976
+13.936494 -5.39535
+13.94704 -5.395659
+13.950339 -5.395996
+13.96639 -5.396461
+13.973774 -5.396718
+13.973774 -5.396975
+13.973776 -5.397231
+13.973776 -5.397488
+13.981812 -5.397818
+14.091118 -5.398234
+14.134034 -5.398601
+14.221424 -5.399
+14.358582 -5.39919
+14.358582 -5.399381
+14.358584 -5.399571
+14.358584 -5.399761
+14.408747 -5.400055
+14.41484 -5.400446
+14.460065 -5.400819
+14.508945 -5.401266
+14.571059 -5.401535
+14.600755 -5.401798
+14.614832 -5.402087
+14.614835 -5.402376
+14.707869 -5.402505
+14.707869 -5.402635
+14.707872 -5.402764
+14.707872 -5.402892
+14.7648 -5.403256
+14.799482 -5.403659
+14.81087 -5.403992
+14.836365 -5.404183
+15.001852 -5.404464
+15.032016 -5.404759
+15.056583 -5.405005
+15.056586 -5.405249
+15.225569 -5.405413
+15.225569 -5.405576
+15.225571 -5.405739
+15.225571 -5.405902
+15.330219 -5.405997
+15.330219 -5.406091
+15.330219 -5.406186
+15.330219 -5.406279
+15.41956 -5.406614
+15.468774 -5.406791
+15.539944 -5.406913
+15.539944 -5.407036
+15.539946 -5.407158
+15.539946 -5.40728
+15.569952 -5.40742
+15.569952 -5.40756
+15.592753 -5.407841
+15.613283 -5.408058
+15.628134 -5.408212
+15.669331 -5.408555
+15.712661 -5.408698
+15.769854 -5.408798
+15.769854 -5.408898
+15.769857 -5.408997
+15.769857 -5.409096
+15.955869 -5.409242
+16.099964 -5.409359
+16.115287 -5.409512
+16.148111 -5.409598
+16.148111 -5.409684
+16.148113 -5.409769
+16.148113 -5.409855
+16.196571 -5.410106
+16.206985 -5.41032
+16.224269 -5.410521
+16.225459 -5.410704
+16.237644 -5.410767
+16.237644 -5.41083
+16.237646 -5.410894
+16.237646 -5.410957
+16.253064 -5.411148
+16.269741 -5.411313
+16.34779 -5.411449
+16.39568 -5.411553
+16.39568 -5.411655
+16.395682 -5.411758
+16.395682 -5.411862
+16.450109 -5.412057
+16.489701 -5.412245
+16.526428 -5.412441
+16.555904 -5.412533
+16.555904 -5.412625
+16.555904 -5.412716
+16.555904 -5.412808
+16.573437 -5.412938
+16.637522 -5.413085
+16.692377 -5.413176
+16.724125 -5.413256
+16.724125 -5.413336
+16.724128 -5.413417
+16.724128 -5.413497
+16.819853 -5.41354
+16.819853 -5.413584
+16.819854 -5.413627
+16.819854 -5.413671
+16.865245 -5.413834
+16.865245 -5.413995
+16.874627 -5.414198
+16.886708 -5.414386
+16.886708 -5.414574
+16.928007 -5.414793
+16.930266 -5.414968
+16.930266 -5.415143
+16.930395 -5.415334
+16.959525 -5.415438
+17.231596 -5.415515
+17.231596 -5.415592
+17.231597 -5.415669
+17.231597 -5.415746
+17.257441 -5.415853
+17.288923 -5.416
+17.331446 -5.416091
+17.435404 -5.416142
+17.435404 -5.416193
+17.435407 -5.416244
+17.435407 -5.416295
+17.631887 -5.416405
+17.642062 -5.416479
+17.728158 -5.416521
+17.728158 -5.416562
+17.728161 -5.416605
+17.728161 -5.416647
+17.798416 -5.416713
+17.798416 -5.416779
+17.798417 -5.416846
+17.798417 -5.416911
+17.807696 -5.417014
+17.811103 -5.41715
+17.840363 -5.417226
+17.87977 -5.417277
+17.87977 -5.417329
+17.879771 -5.417381
+17.879772 -5.417432
+17.906756 -5.417502
+17.907524 -5.417608
+17.921844 -5.417664
+17.921844 -5.417718
+17.921845 -5.417828
+17.938737 -5.417915
+17.97478 -5.41802
+17.998901 -5.418073
+17.998901 -5.418128
+17.998904 -5.418182
+17.998904 -5.418235
+18.067309 -5.418334
+18.067309 -5.418432
+18.068303 -5.41853
+18.082572 -5.418592
+18.106825 -5.418648
+18.106825 -5.418705
+18.106826 -5.41876
+18.106826 -5.418816
+18.143505 -5.418923
+18.18887 -5.419004
+18.18887 -5.419084
+18.342638 -5.419126
+18.342638 -5.419167
+18.34264 -5.419209
+18.34264 -5.41925
+18.416615 -5.419294
+18.422417 -5.419372
+18.44813 -5.419482
+18.495263 -5.419608
+18.542607 -5.419679
+18.558073 -5.419727
+18.560765 -5.419798
+&
+@target G0.S3
+@type xy
+4.381653 1.8060063
+4.6897188 2.975661
+4.6897188 4.1453138
+4.6897203 5.3149714
+4.6897204 6.4846308
+4.8542918 7.863234
+4.8798752 8.20129
+4.8798753 8.539348
+4.8798768 8.877398
+4.8798768 9.215449
+6.0648207 9.856496
+6.6028026 9.680148
+6.8108115 9.471501
+7.3245439 9.458599
+7.3245439 9.445702
+7.3245467 9.432801
+7.3245467 9.419901
+7.6466902 9.4065
+7.6466902 9.393097
+7.646693 9.379696
+7.646693 9.366298
+7.9181152 9.364798
+7.9370588 9.350426
+7.9370588 9.336054
+7.9370597 9.32168
+7.9370597 9.307309
+7.947854 9.285796
+8.165894 9.322999
+8.2328586 9.316331
+8.2328586 9.309664
+8.2328595 9.302995
+8.2328595 9.296326
+8.2752795 9.329982
+8.2932584 9.290777
+8.9719854 9.275305
+9.0351772 9.244304
+9.1537638 9.273453
+9.2954905 9.311995
+9.3615069 9.278622
+9.3873735 9.348819
+9.5735705 9.350962
+9.5735705 9.353104
+9.5735726 9.355245
+9.5735726 9.357386
+9.8078049 9.335596
+9.9032591 9.33199
+10.272462 9.336551
+10.272462 9.341112
+10.272465 9.345672
+10.272465 9.350233
+10.479836 9.360624
+10.479836 9.371014
+10.479837 9.381405
+10.479837 9.391796
+10.506826 9.373182
+10.55227 9.377086
+10.55227 9.380991
+10.552271 9.384895
+10.552271 9.388799
+10.597768 9.402785
+10.621616 9.393547
+10.884055 9.391311
+10.884055 9.389075
+10.884058 9.386841
+10.884058 9.384605
+11.227186 9.38409
+11.227189 9.383575
+11.294246 9.372975
+11.316444 9.375505
+11.431706 9.386453
+11.511985 9.388388
+11.80109 9.393751
+11.854553 9.407984
+11.891152 9.417077
+11.892728 9.419592
+11.892728 9.422107
+11.89273 9.424623
+11.89273 9.427138
+11.913808 9.435423
+11.954353 9.425912
+12.081057 9.423588
+12.081057 9.421263
+12.081058 9.418938
+12.081058 9.416614
+12.129643 9.415896
+12.129643 9.415179
+12.129644 9.414463
+12.129644 9.413745
+12.288125 9.413175
+12.288126 9.412606
+12.288126 9.412036
+12.288126 9.411466
+12.307337 9.406378
+12.38281 9.409677
+12.394698 9.410469
+12.394698 9.411262
+12.394701 9.412054
+12.394701 9.412847
+12.436584 9.413777
+12.436584 9.414707
+12.436585 9.415637
+12.436585 9.416567
+12.453271 9.428943
+12.470205 9.425149
+12.470205 9.421355
+12.470206 9.417561
+12.470206 9.413767
+12.798372 9.415753
+12.885392 9.409961
+13.146759 9.41004
+13.146759 9.410119
+13.146761 9.410199
+13.146761 9.410278
+13.270954 9.412181
+13.270954 9.414083
+13.270957 9.415986
+13.270957 9.417889
+13.335178 9.411844
+13.403536 9.412503
+13.403536 9.41316
+13.403538 9.413817
+13.403538 9.414475
+13.481495 9.410031
+13.618504 9.412712
+13.655137 9.410471
+13.895301 9.40762
+13.895301 9.404769
+13.895303 9.401919
+13.895303 9.399069
+13.936494 9.395897
+13.94704 9.39267
+13.950339 9.388128
+13.96639 9.391114
+13.973774 9.392839
+13.973774 9.394563
+13.973776 9.396288
+13.973776 9.398013
+13.981812 9.394552
+14.091118 9.39247
+14.134034 9.391493
+14.221424 9.389493
+14.358582 9.389331
+14.358582 9.389167
+14.358584 9.389005
+14.358584 9.388842
+14.408747 9.385463
+14.41484 9.388213
+14.460065 9.387834
+14.508945 9.393726
+14.571059 9.390318
+14.600755 9.387234
+14.614832 9.384728
+14.614835 9.382223
+14.707869 9.381781
+14.707869 9.38134
+14.707872 9.380898
+14.707872 9.380458
+14.7648 9.381306
+14.799482 9.384292
+14.81087 9.38709
+14.836365 9.383602
+15.001852 9.384094
+15.032016 9.385299
+15.056583 9.385286
+15.056586 9.385276
+15.225569 9.385679
+15.225569 9.386083
+15.225571 9.386486
+15.225571 9.386889
+15.330219 9.385921
+15.330219 9.384954
+15.330219 9.383986
+15.330219 9.38302
+15.41956 9.384158
+15.468774 9.383098
+15.539944 9.383316
+15.539944 9.383534
+15.539946 9.383752
+15.539946 9.38397
+15.569952 9.381224
+15.569952 9.378478
+15.592753 9.379234
+15.613283 9.379439
+15.628134 9.378417
+15.669331 9.380526
+15.712661 9.378022
+15.769854 9.378067
+15.769854 9.378111
+15.769857 9.378156
+15.769857 9.3782
+15.955869 9.37631
+16.099964 9.373972
+16.115287 9.372849
+16.148111 9.372614
+16.148111 9.37238
+16.148113 9.372147
+16.148113 9.371912
+16.196571 9.373129
+16.206985 9.373426
+16.224269 9.373212
+16.225459 9.373936
+16.237644 9.372945
+16.237644 9.371955
+16.237646 9.370962
+16.237646 9.36997
+16.253064 9.370914
+16.269741 9.371978
+16.34779 9.370778
+16.39568 9.371812
+16.39568 9.372846
+16.395682 9.37388
+16.395682 9.374913
+16.450109 9.376344
+16.489701 9.378784
+16.526428 9.378929
+16.555904 9.378938
+16.555904 9.378947
+16.555904 9.378957
+16.555904 9.378966
+16.573437 9.377778
+16.637522 9.377869
+16.692377 9.376164
+16.724125 9.376704
+16.724125 9.377244
+16.724128 9.377784
+16.724128 9.378324
+16.819853 9.37744
+16.819853 9.376555
+16.819854 9.375671
+16.819854 9.374787
+16.865245 9.375395
+16.865245 9.376004
+16.874627 9.377558
+16.886708 9.379652
+16.886708 9.381746
+16.928007 9.383383
+16.930266 9.385013
+16.930266 9.386642
+16.930395 9.389519
+16.959525 9.388261
+17.231596 9.388262
+17.231596 9.388263
+17.231597 9.388264
+17.231597 9.388266
+17.257441 9.387721
+17.288923 9.389187
+17.331446 9.387931
+17.435404 9.387697
+17.435404 9.387463
+17.435407 9.387229
+17.435407 9.386995
+17.631887 9.387616
+17.642062 9.386404
+17.728158 9.385988
+17.728158 9.385573
+17.728161 9.385157
+17.728161 9.384742
+17.798416 9.385341
+17.798416 9.385941
+17.798417 9.38654
+17.798417 9.38714
+17.807696 9.38668
+17.811103 9.387696
+17.840363 9.386663
+17.87977 9.386708
+17.87977 9.386752
+17.879771 9.386795
+17.879772 9.38684
+17.906756 9.385742
+17.907524 9.386704
+17.921844 9.386907
+17.921844 9.387111
+17.921845 9.387518
+17.938737 9.386913
+17.97478 9.388067
+17.998901 9.388242
+17.998901 9.388417
+17.998904 9.388593
+17.998904 9.388769
+18.067309 9.389385
+18.067309 9.39
+18.068303 9.390723
+18.082572 9.390229
+18.106825 9.390717
+18.106825 9.391206
+18.106826 9.391695
+18.106826 9.392183
+18.143505 9.393
+18.18887 9.392959
+18.18887 9.39292
+18.342638 9.392923
+18.342638 9.392926
+18.34264 9.392928
+18.34264 9.392932
+18.416615 9.391729
+18.422417 9.391867
+18.44813 9.392866
+18.495263 9.395258
+18.542607 9.395216
+18.558073 9.394127
+18.560765 9.393891
+&
+@target G0.S4
+@type xy
+4.381653 -6.2844894
+4.6897188 -8.916974
+4.6897188 -11.549462
+4.6897203 -14.181954
+4.6897204 -16.814442
+4.8542918 -21.44581
+4.8798752 -23.442699
+4.8798753 -25.439599
+4.8798768 -27.436473
+4.8798768 -29.43336
+6.0648207 -30.686779
+6.6028026 -31.002516
+6.8108115 -31.265179
+7.3245439 -31.354426
+7.3245439 -31.443673
+7.3245467 -31.532921
+7.3245467 -31.622168
+7.6466902 -31.681296
+7.6466902 -31.740424
+7.646693 -31.799552
+7.646693 -31.858681
+7.9181152 -31.962154
+7.9370588 -32.022994
+7.9370588 -32.083833
+7.9370597 -32.144672
+7.9370597 -32.205511
+7.947854 -32.29636
+8.165894 -32.427148
+8.2328586 -32.470199
+8.2328586 -32.513247
+8.2328595 -32.556297
+8.2328595 -32.599347
+8.2752795 -32.676732
+8.2932584 -32.74119
+8.9719854 -32.797218
+9.0351772 -32.832291
+9.1537638 -32.882453
+9.2954905 -32.934165
+9.3615069 -32.966327
+9.3873735 -33.011484
+9.5735705 -33.030201
+9.5735705 -33.048919
+9.5735726 -33.067637
+9.5735726 -33.086355
+9.8078049 -33.106694
+9.9032591 -33.136497
+10.272462 -33.146971
+10.272462 -33.157445
+10.272465 -33.167918
+10.272465 -33.178392
+10.479836 -33.189316
+10.479836 -33.20024
+10.479837 -33.211164
+10.479837 -33.222088
+10.506826 -33.234712
+10.55227 -33.244026
+10.55227 -33.25334
+10.552271 -33.262654
+10.552271 -33.271967
+10.597768 -33.289438
+10.621616 -33.302103
+10.884055 -33.307981
+10.884055 -33.313859
+10.884058 -33.319738
+10.884058 -33.325617
+11.227186 -33.335604
+11.227189 -33.345592
+11.294246 -33.355418
+11.316444 -33.365732
+11.431706 -33.381352
+11.511985 -33.390383
+11.80109 -33.399566
+11.854553 -33.409668
+11.891152 -33.422066
+11.892728 -33.426609
+11.892728 -33.431151
+11.89273 -33.435693
+11.89273 -33.440236
+11.913808 -33.450781
+11.954353 -33.45614
+12.081057 -33.459327
+12.081057 -33.462515
+12.081058 -33.465702
+12.081058 -33.468889
+12.129643 -33.472796
+12.129643 -33.476702
+12.129644 -33.480608
+12.129644 -33.484514
+12.288125 -33.48745
+12.288126 -33.490386
+12.288126 -33.493323
+12.288126 -33.49626
+12.307337 -33.501228
+12.38281 -33.509152
+12.394698 -33.512453
+12.394698 -33.515755
+12.394701 -33.519057
+12.394701 -33.522358
+12.436584 -33.525684
+12.436584 -33.52901
+12.436585 -33.532336
+12.436585 -33.535662
+12.453271 -33.543315
+12.470205 -33.545313
+12.470205 -33.54731
+12.470206 -33.549308
+12.470206 -33.551305
+12.798372 -33.556548
+12.885392 -33.559847
+13.146759 -33.562408
+13.146759 -33.564967
+13.146761 -33.567526
+13.146761 -33.570086
+13.270954 -33.57232
+13.270954 -33.574556
+13.270957 -33.576791
+13.270957 -33.579026
+13.335178 -33.581519
+13.403536 -33.583516
+13.403536 -33.585514
+13.403538 -33.587512
+13.403538 -33.589509
+13.481495 -33.59208
+13.618504 -33.59685
+13.655137 -33.599612
+13.895301 -33.600481
+13.895301 -33.60135
+13.895303 -33.602218
+13.895303 -33.603086
+13.936494 -33.605326
+13.94704 -33.607268
+13.950339 -33.609292
+13.96639 -33.612463
+13.973774 -33.61423
+13.973774 -33.615996
+13.973776 -33.617763
+13.973776 -33.619529
+13.981812 -33.621517
+14.091118 -33.624091
+14.134034 -33.626421
+14.221424 -33.628903
+14.358582 -33.630105
+14.358582 -33.631308
+14.358584 -33.632511
+14.358584 -33.633714
+14.408747 -33.635459
+14.41484 -33.638133
+14.460065 -33.640498
+14.508945 -33.643746
+14.571059 -33.645358
+14.600755 -33.64687
+14.614832 -33.648569
+14.614835 -33.650269
+14.707869 -33.651103
+14.707869 -33.651937
+14.707872 -33.652771
+14.707872 -33.653604
+14.7648 -33.655957
+14.799482 -33.658667
+14.81087 -33.66102
+14.836365 -33.662157
+15.001852 -33.663995
+15.032016 -33.665969
+15.056583 -33.667576
+15.056586 -33.669181
+15.225569 -33.670232
+15.225569 -33.671282
+15.225571 -33.672333
+15.225571 -33.673382
+15.330219 -33.673962
+15.330219 -33.674542
+15.330219 -33.675122
+15.330219 -33.675701
+15.41956 -33.677906
+15.468774 -33.679044
+15.539944 -33.679848
+15.539944 -33.680651
+15.539946 -33.681454
+15.539946 -33.682258
+15.569952 -33.683065
+15.569952 -33.683872
+15.592753 -33.685697
+15.613283 -33.687109
+15.628134 -33.688122
+15.669331 -33.690421
+15.712661 -33.691242
+15.769854 -33.691894
+15.769854 -33.692546
+15.769857 -33.693197
+15.769857 -33.693849
+15.955869 -33.694695
+16.099964 -33.695376
+16.115287 -33.696293
+16.148111 -33.696843
+16.148111 -33.697392
+16.148113 -33.697941
+16.148113 -33.698491
+16.196571 -33.700155
+16.206985 -33.701531
+16.224269 -33.702809
+16.225459 -33.704029
+16.237644 -33.704389
+16.237644 -33.704749
+16.237646 -33.70511
+16.237646 -33.70547
+16.253064 -33.706754
+16.269741 -33.70792
+16.34779 -33.708731
+16.39568 -33.709456
+16.39568 -33.710179
+16.395682 -33.710904
+16.395682 -33.711628
+16.450109 -33.712956
+16.489701 -33.714343
+16.526428 -33.715611
+16.555904 -33.716204
+16.555904 -33.716798
+16.555904 -33.717391
+16.555904 -33.717984
+16.573437 -33.718743
+16.637522 -33.719699
+16.692377 -33.720229
+16.724125 -33.720779
+16.724125 -33.721327
+16.724128 -33.721876
+16.724128 -33.722425
+16.819853 -33.722673
+16.819853 -33.722922
+16.819854 -33.72317
+16.819854 -33.723418
+16.865245 -33.724512
+16.865245 -33.725604
+16.874627 -33.726963
+16.886708 -33.728291
+16.886708 -33.729619
+16.928007 -33.731098
+16.930266 -33.732321
+16.930266 -33.733544
+16.930395 -33.734944
+16.959525 -33.735555
+17.231596 -33.736043
+17.231596 -33.736531
+17.231597 -33.737019
+17.231597 -33.737507
+17.257441 -33.738171
+17.288923 -33.739204
+17.331446 -33.739709
+17.435404 -33.740026
+17.435404 -33.740342
+17.435407 -33.740658
+17.435407 -33.740974
+17.631887 -33.741716
+17.642062 -33.742133
+17.728158 -33.742379
+17.728158 -33.742624
+17.728161 -33.74287
+17.728161 -33.743115
+17.798416 -33.743573
+17.798416 -33.744031
+17.798417 -33.744489
+17.798417 -33.744945
+17.807696 -33.745592
+17.811103 -33.746508
+17.840363 -33.746933
+17.87977 -33.74727
+17.87977 -33.747608
+17.879771 -33.747946
+17.879772 -33.748283
+17.906756 -33.748681
+17.907524 -33.749426
+17.921844 -33.749792
+17.921844 -33.750156
+17.921845 -33.750886
+17.938737 -33.751417
+17.97478 -33.752179
+17.998901 -33.752532
+17.998901 -33.752886
+17.998904 -33.753239
+17.998904 -33.753592
+18.067309 -33.754277
+18.067309 -33.754962
+18.068303 -33.75564
+18.082572 -33.756041
+18.106825 -33.756433
+18.106825 -33.756826
+18.106826 -33.757218
+18.106826 -33.75761
+18.143505 -33.758346
+18.18887 -33.758878
+18.18887 -33.759409
+18.342638 -33.759678
+18.342638 -33.759948
+18.34264 -33.760217
+18.34264 -33.760485
+18.416615 -33.76073
+18.422417 -33.761239
+18.44813 -33.761994
+18.495263 -33.762945
+18.542607 -33.763408
+18.558073 -33.763678
+18.560765 -33.764125
+&
+@target G0.S5
+@type xy
+4.381653 0.4828103
+4.6897188 0.6880384
+4.6897188 0.8932678
+4.6897203 1.0984951
+4.6897204 1.3037208
+4.8542918 1.747239
+4.8798752 1.902846
+4.8798753 2.058454
+4.8798768 2.214062
+4.8798768 2.369668
+6.0648207 2.397874
+6.6028026 2.430103
+6.8108115 2.456264
+7.3245439 2.462789
+7.3245439 2.469315
+7.3245467 2.47584
+7.3245467 2.482365
+7.6466902 2.486483
+7.6466902 2.490601
+7.646693 2.494719
+7.646693 2.498836
+7.9181152 2.505522
+7.9370588 2.511774
+7.9370588 2.518026
+7.9370597 2.524279
+7.9370597 2.530531
+7.947854 2.539222
+8.165894 2.551036
+8.2328586 2.55517
+8.2328586 2.559305
+8.2328595 2.563439
+8.2328595 2.567575
+8.2752795 2.570816
+8.2932584 2.574961
+8.9719854 2.582622
+9.0351772 2.58448
+9.1537638 2.588244
+9.2954905 2.592643
+9.3615069 2.597353
+9.3873735 2.597817
+9.5735705 2.599804
+9.5735705 2.601791
+9.5735726 2.603778
+9.5735726 2.605764
+9.8078049 2.606751
+9.9032591 2.6106
+10.272462 2.611194
+10.272462 2.611788
+10.272465 2.612383
+10.272465 2.612977
+10.479836 2.613686
+10.479836 2.614395
+10.479837 2.615104
+10.479837 2.615814
+10.506826 2.617329
+10.55227 2.617972
+10.55227 2.618615
+10.552271 2.619259
+10.552271 2.619903
+10.597768 2.620746
+10.621616 2.621626
+10.884055 2.622067
+10.884055 2.622508
+10.884058 2.622948
+10.884058 2.623388
+11.227186 2.623774
+11.227189 2.624159
+11.294246 2.625685
+11.316444 2.626188
+11.431706 2.62834
+11.511985 2.628612
+11.80109 2.629332
+11.854553 2.629369
+11.891152 2.631135
+11.892728 2.63144
+11.892728 2.631746
+11.89273 2.632052
+11.89273 2.632357
+11.913808 2.633505
+11.954353 2.633892
+12.081057 2.634124
+12.081057 2.634354
+12.081058 2.634584
+12.081058 2.634816
+12.129643 2.635339
+12.129643 2.635863
+12.129644 2.636387
+12.129644 2.63691
+12.288125 2.637234
+12.288126 2.637558
+12.288126 2.637882
+12.288126 2.638205
+12.307337 2.638473
+12.38281 2.639497
+12.394698 2.639847
+12.394698 2.640196
+12.394701 2.640545
+12.394701 2.640894
+12.436584 2.641245
+12.436584 2.641597
+12.436585 2.641948
+12.436585 2.642299
+12.453271 2.642351
+12.470205 2.642606
+12.470205 2.642862
+12.470206 2.643118
+12.470206 2.643373
+12.798372 2.643791
+12.885392 2.644052
+13.146759 2.644388
+13.146759 2.644725
+13.146761 2.645062
+13.146761 2.645399
+13.270954 2.645475
+13.270954 2.64555
+13.270957 2.645626
+13.270957 2.645702
+13.335178 2.645989
+13.403536 2.646186
+13.403536 2.646381
+13.403538 2.646576
+13.403538 2.646772
+13.481495 2.646875
+13.618504 2.647548
+13.655137 2.647768
+13.895301 2.64787
+13.895301 2.647972
+13.895303 2.648074
+13.895303 2.648177
+13.936494 2.648392
+13.94704 2.648595
+13.950339 2.649002
+13.96639 2.649147
+13.973774 2.649264
+13.973774 2.649382
+13.973776 2.649499
+13.973776 2.649616
+13.981812 2.649756
+14.091118 2.650153
+14.134034 2.650212
+14.221424 2.650632
+14.358582 2.650719
+14.358582 2.650805
+14.358584 2.650891
+14.358584 2.650978
+14.408747 2.651244
+14.41484 2.651371
+14.460065 2.65165
+14.508945 2.651653
+14.571059 2.651972
+14.600755 2.652042
+14.614832 2.652159
+14.614835 2.652275
+14.707869 2.652337
+14.707869 2.652399
+14.707872 2.652461
+14.707872 2.652524
+14.7648 2.65279
+14.799482 2.653047
+14.81087 2.653078
+14.836365 2.653289
+15.001852 2.653409
+15.032016 2.653426
+15.056583 2.653487
+15.056586 2.65355
+15.225569 2.653675
+15.225569 2.653802
+15.225571 2.653928
+15.225571 2.654055
+15.330219 2.654152
+15.330219 2.65425
+15.330219 2.654348
+15.330219 2.654447
+15.41956 2.654776
+15.468774 2.654854
+15.539944 2.654929
+15.539944 2.655004
+15.539946 2.65508
+15.539946 2.655155
+15.569952 2.655306
+15.569952 2.655457
+15.592753 2.655698
+15.613283 2.655797
+15.628134 2.655887
+15.669331 2.656208
+15.712661 2.656309
+15.769854 2.656376
+15.769854 2.656443
+15.769857 2.656511
+15.769857 2.656578
+15.955869 2.656626
+16.099964 2.656783
+16.115287 2.656832
+16.148111 2.656907
+16.148111 2.656984
+16.148113 2.65706
+16.148113 2.657136
+16.196571 2.657362
+16.206985 2.657553
+16.224269 2.657753
+16.225459 2.657836
+16.237644 2.657867
+16.237644 2.657897
+16.237646 2.657926
+16.237646 2.657957
+16.253064 2.657962
+16.269741 2.657996
+16.34779 2.658044
+16.39568 2.658074
+16.39568 2.658104
+16.395682 2.658134
+16.395682 2.658163
+16.450109 2.658277
+16.489701 2.658291
+16.526428 2.658495
+16.555904 2.658571
+16.555904 2.658648
+16.555904 2.658726
+16.555904 2.658802
+16.573437 2.658821
+16.637522 2.658894
+16.692377 2.658968
+16.724125 2.658982
+16.724125 2.658997
+16.724128 2.659011
+16.724128 2.659025
+16.819853 2.659063
+16.819853 2.6591
+16.819854 2.659137
+16.819854 2.659174
+16.865245 2.659288
+16.865245 2.659403
+16.874627 2.659557
+16.886708 2.659628
+16.886708 2.659699
+16.928007 2.659891
+16.930266 2.659958
+16.930266 2.660026
+16.930395 2.660022
+16.959525 2.660097
+17.231596 2.660162
+17.231596 2.660227
+17.231597 2.660292
+17.231597 2.660358
+17.257441 2.660425
+17.288923 2.660426
+17.331446 2.660448
+17.435404 2.660472
+17.435404 2.660497
+17.435407 2.660521
+17.435407 2.660545
+17.631887 2.660578
+17.642062 2.66061
+17.728158 2.660625
+17.728158 2.660642
+17.728161 2.660657
+17.728161 2.660673
+17.798416 2.660698
+17.798416 2.660723
+17.798417 2.660748
+17.798417 2.660774
+17.807696 2.660894
+17.811103 2.660994
+17.840363 2.661014
+17.87977 2.661055
+17.87977 2.661095
+17.879771 2.661135
+17.879772 2.661175
+17.906756 2.661233
+17.907524 2.661269
+17.921844 2.661291
+17.921844 2.661313
+17.921845 2.661357
+17.938737 2.661441
+17.97478 2.661452
+17.998901 2.661492
+17.998901 2.661532
+17.998904 2.661572
+17.998904 2.661612
+18.067309 2.661665
+18.067309 2.661718
+18.068303 2.661756
+18.082572 2.661789
+18.106825 2.661817
+18.106825 2.661845
+18.106826 2.661875
+18.106826 2.661903
+18.143505 2.661967
+18.18887 2.662013
+18.18887 2.66206
+18.342638 2.662085
+18.342638 2.66211
+18.34264 2.662135
+18.34264 2.66216
+18.416615 2.66222
+18.422417 2.662245
+18.44813 2.662319
+18.495263 2.662314
+18.542607 2.662343
+18.558073 2.662414
+18.560765 2.662421
+&
+@target G0.S6
+@type xy
+4.381653 -4.0334251
+4.6897188 -5.3730337
+4.6897188 -6.7126409
+4.6897203 -8.0522433
+4.6897204 -9.3918393
+4.8542918 -12.156223
+4.8798752 -13.539243
+4.8798753 -14.922266
+4.8798768 -16.305247
+4.8798768 -17.688241
+6.0648207 -18.329656
+6.6028026 -18.714096
+6.8108115 -19.091722
+7.3245439 -19.175406
+7.3245439 -19.259089
+7.3245467 -19.342766
+7.3245467 -19.426445
+7.6466902 -19.483855
+7.6466902 -19.541272
+7.646693 -19.598653
+7.646693 -19.656045
+7.9181152 -19.742466
+7.9370588 -19.803582
+7.9370588 -19.864687
+7.9370597 -19.92577
+7.9370597 -19.986855
+7.947854 -20.071529
+8.165894 -20.148219
+8.2328586 -20.187164
+8.2328586 -20.226109
+8.2328595 -20.265073
+8.2328595 -20.304035
+8.2752795 -20.332297
+8.2932584 -20.417999
+8.9719854 -20.476351
+9.0351772 -20.531111
+9.1537638 -20.547492
+9.2954905 -20.557102
+9.3615069 -20.610865
+9.3873735 -20.583875
+9.5735705 -20.597406
+9.5735705 -20.61095
+9.5735726 -20.624505
+9.5735726 -20.638033
+9.8078049 -20.672485
+9.9032591 -20.699867
+10.272462 -20.704039
+10.272462 -20.708262
+10.272465 -20.712426
+10.272465 -20.716583
+10.479836 -20.716145
+10.479836 -20.715681
+10.479837 -20.715214
+10.479837 -20.714779
+10.506826 -20.740467
+10.55227 -20.74439
+10.55227 -20.748312
+10.552271 -20.752226
+10.552271 -20.756141
+10.597768 -20.75845
+10.621616 -20.775918
+10.884055 -20.782593
+10.884055 -20.789279
+10.884058 -20.79596
+10.884058 -20.802636
+11.227186 -20.810816
+11.227189 -20.819027
+11.294246 -20.835881
+11.316444 -20.842078
+11.431706 -20.845282
+11.511985 -20.850447
+11.80109 -20.853255
+11.854553 -20.848358
+11.891152 -20.850476
+11.892728 -20.851968
+11.892728 -20.853456
+11.89273 -20.854934
+11.89273 -20.856429
+11.913808 -20.857941
+11.954353 -20.870154
+12.081057 -20.874659
+12.081057 -20.879168
+12.081058 -20.883664
+12.081058 -20.888169
+12.129643 -20.891966
+12.129643 -20.895741
+12.129644 -20.899517
+12.129644 -20.90328
+12.288125 -20.906072
+12.288126 -20.908975
+12.288126 -20.911872
+12.288126 -20.914776
+12.307337 -20.923131
+12.38281 -20.926581
+12.394698 -20.92862
+12.394698 -20.930685
+12.394701 -20.932752
+12.394701 -20.934823
+12.436584 -20.936669
+12.436584 -20.938516
+12.436585 -20.940372
+12.436585 -20.942232
+12.453271 -20.93746
+12.470205 -20.942144
+12.470205 -20.946848
+12.470206 -20.951556
+12.470206 -20.956279
+12.798372 -20.959027
+12.885392 -20.96676
+13.146759 -20.96888
+13.146759 -20.970995
+13.146761 -20.973099
+13.146761 -20.975222
+13.270954 -20.97535
+13.270954 -20.975563
+13.270957 -20.975776
+13.270957 -20.975906
+13.335178 -20.983111
+13.403536 -20.984208
+13.403536 -20.985311
+13.403538 -20.986369
+13.403538 -20.987433
+13.481495 -20.993396
+13.618504 -20.994928
+13.655137 -20.999263
+13.895301 -21.002419
+13.895301 -21.00556
+13.895303 -21.008698
+13.895303 -21.011854
+13.936494 -21.016622
+13.94704 -21.020731
+13.950339 -21.026309
+13.96639 -21.026184
+13.973774 -21.026099
+13.973774 -21.026034
+13.973776 -21.025968
+13.973776 -21.025779
+13.981812 -21.030371
+14.091118 -21.034276
+14.134034 -21.036868
+14.221424 -21.040697
+14.358582 -21.04175
+14.358582 -21.042799
+14.358584 -21.043868
+14.358584 -21.044914
+14.408747 -21.049133
+14.41484 -21.048682
+14.460065 -21.051095
+14.508945 -21.048573
+14.571059 -21.052795
+14.600755 -21.056747
+14.614832 -21.060274
+14.614835 -21.063839
+14.707869 -21.064889
+14.707869 -21.065936
+14.707872 -21.066979
+14.707872 -21.068035
+14.7648 -21.069206
+14.799482 -21.068887
+14.81087 -21.068304
+14.836365 -21.072155
+15.001852 -21.072925
+15.032016 -21.073282
+15.056583 -21.074583
+15.056586 -21.075806
+15.225569 -21.076318
+15.225569 -21.076839
+15.225571 -21.07734
+15.225571 -21.07787
+15.330219 -21.07917
+15.330219 -21.08048
+15.330219 -21.081791
+15.330219 -21.083109
+15.41956 -21.083874
+15.468774 -21.085451
+15.539944 -21.085935
+15.539944 -21.086455
+15.539946 -21.086919
+15.539946 -21.087427
+15.569952 -21.09036
+15.569952 -21.093356
+15.592753 -21.094222
+15.613283 -21.095282
+15.628134 -21.096911
+15.669331 -21.09687
+15.712661 -21.099614
+15.769854 -21.100133
+15.769854 -21.100648
+15.769857 -21.101152
+15.769857 -21.101663
+15.955869 -21.103856
+16.099964 -21.106412
+16.115287 -21.108017
+16.148111 -21.108649
+16.148111 -21.109294
+16.148113 -21.10994
+16.148113 -21.110588
+16.196571 -21.110866
+16.206985 -21.111733
+16.224269 -21.112972
+16.225459 -21.113346
+16.237644 -21.114471
+16.237644 -21.11563
+16.237646 -21.116755
+16.237646 -21.117918
+16.253064 -21.117929
+16.269741 -21.117901
+16.34779 -21.119683
+16.39568 -21.119398
+16.39568 -21.1191
+16.395682 -21.118817
+16.395682 -21.118533
+16.450109 -21.118424
+16.489701 -21.117452
+16.526428 -21.118364
+16.555904 -21.11882
+16.555904 -21.119302
+16.555904 -21.119807
+16.555904 -21.120301
+16.573437 -21.121921
+16.637522 -21.122642
+16.692377 -21.124443
+16.724125 -21.124424
+16.724125 -21.12438
+16.724128 -21.124378
+16.724128 -21.124314
+16.819853 -21.125305
+16.819853 -21.126297
+16.819854 -21.127277
+16.819854 -21.128262
+16.865245 -21.12866
+16.865245 -21.129008
+16.874627 -21.128733
+16.886708 -21.12802
+16.886708 -21.127296
+16.928007 -21.127118
+16.930266 -21.12673
+16.930266 -21.126316
+16.930395 -21.124685
+16.959525 -21.126284
+17.231596 -21.126664
+17.231596 -21.127081
+17.231597 -21.127504
+17.231597 -21.127918
+17.257441 -21.128909
+17.288923 -21.128441
+17.331446 -21.129933
+17.435404 -21.130412
+17.435404 -21.130871
+17.435407 -21.131359
+17.435407 -21.13184
+17.631887 -21.131903
+17.642062 -21.133274
+17.728158 -21.133847
+17.728158 -21.13442
+17.728161 -21.134981
+17.728161 -21.135538
+17.798416 -21.135386
+17.798416 -21.135251
+17.798417 -21.135097
+17.798417 -21.134951
+17.807696 -21.135942
+17.811103 -21.135801
+17.840363 -21.137042
+17.87977 -21.137261
+17.87977 -21.137495
+17.879771 -21.13773
+17.879772 -21.137959
+17.906756 -21.13926
+17.907524 -21.139004
+17.921844 -21.139127
+17.921844 -21.13925
+17.921845 -21.139462
+17.938737 -21.140417
+17.97478 -21.139873
+17.998901 -21.140031
+17.998901 -21.140183
+17.998904 -21.140328
+17.998904 -21.140495
+18.067309 -21.140524
+18.067309 -21.140568
+18.068303 -21.140496
+18.082572 -21.141262
+18.106825 -21.141163
+18.106825 -21.141056
+18.106826 -21.140937
+18.106826 -21.140813
+18.143505 -21.140705
+18.18887 -21.141205
+18.18887 -21.141664
+18.342638 -21.141898
+18.342638 -21.142126
+18.34264 -21.14235
+18.34264 -21.142572
+18.416615 -21.143765
+18.422417 -21.143934
+18.44813 -21.143676
+18.495263 -21.142326
+18.542607 -21.14284
+18.558073 -21.14392
+18.560765 -21.144487
+&
+@target G0.S7
+@type xy
+4.381653 -3.5518322
+4.6897188 -4.6712287
+4.6897188 -5.7906288
+4.6897203 -6.9100214
+4.6897204 -8.0294125
+4.8542918 -10.482378
+4.8798752 -11.752089
+4.8798753 -13.021814
+4.8798768 -14.291514
+4.8798768 -15.561223
+6.0648207 -16.055432
+6.6028026 -16.43222
+6.8108115 -16.804591
+7.3245439 -16.882177
+7.3245439 -16.959766
+7.3245467 -17.037354
+7.3245467 -17.11494
+7.6466902 -17.168925
+7.6466902 -17.222911
+7.646693 -17.276897
+7.646693 -17.330884
+7.9181152 -17.409225
+7.9370588 -17.466412
+7.9370588 -17.523599
+7.9370597 -17.580786
+7.9370597 -17.63797
+7.947854 -17.718586
+8.165894 -17.783062
+8.2328586 -17.819436
+8.2328586 -17.855798
+8.2328595 -17.892159
+8.2328595 -17.928523
+8.2752795 -17.950954
+8.2932584 -18.032921
+8.9719854 -18.087104
+9.0351772 -18.13998
+9.1537638 -18.151114
+9.2954905 -18.155037
+9.3615069 -18.207484
+9.3873735 -18.175258
+9.5735705 -18.187113
+9.5735705 -18.19897
+9.5735726 -18.210827
+9.5735726 -18.222682
+9.8078049 -18.256452
+9.9032591 -18.281439
+10.272462 -18.284723
+10.272462 -18.288001
+10.272465 -18.291277
+10.272465 -18.294553
+10.479836 -18.292971
+10.479836 -18.291299
+10.479837 -18.289711
+10.479837 -18.28812
+10.506826 -18.313532
+10.55227 -18.316615
+10.55227 -18.319699
+10.552271 -18.322782
+10.552271 -18.325865
+10.597768 -18.326032
+10.621616 -18.342985
+10.884055 -18.349218
+10.884055 -18.355452
+10.884058 -18.36171
+10.884058 -18.367969
+11.227186 -18.375497
+11.227189 -18.383038
+11.294246 -18.399521
+11.316444 -18.404717
+11.431706 -18.406167
+11.511985 -18.410585
+11.80109 -18.412446
+11.854553 -18.406557
+11.891152 -18.407337
+11.892728 -18.40828
+11.892728 -18.409224
+11.89273 -18.410167
+11.89273 -18.411111
+11.913808 -18.411378
+11.954353 -18.423702
+12.081057 -18.428029
+12.081057 -18.432345
+12.081058 -18.436666
+12.081058 -18.440987
+12.129643 -18.444383
+12.129643 -18.447789
+12.129644 -18.451193
+12.129644 -18.454589
+12.288125 -18.45716
+12.288126 -18.459744
+12.288126 -18.462315
+12.288126 -18.464885
+12.307337 -18.472974
+12.38281 -18.475711
+12.394698 -18.477376
+12.394698 -18.479047
+12.394701 -18.480701
+12.394701 -18.48237
+12.436584 -18.483849
+12.436584 -18.485358
+12.436585 -18.486867
+12.436585 -18.488357
+12.453271 -18.48247
+12.470205 -18.487262
+12.470205 -18.492056
+12.470206 -18.49686
+12.470206 -18.501657
+12.798372 -18.503655
+12.885392 -18.511121
+13.146759 -18.512868
+13.146759 -18.514614
+13.146761 -18.516358
+13.146761 -18.518111
+13.270954 -18.517982
+13.270954 -18.517852
+13.270957 -18.517722
+13.270957 -18.517591
+13.335178 -18.524715
+13.403536 -18.525539
+13.403536 -18.526364
+13.403538 -18.527188
+13.403538 -18.528018
+13.481495 -18.533783
+13.618504 -18.534815
+13.655137 -18.53897
+13.895301 -18.542134
+13.895301 -18.545292
+13.895303 -18.548449
+13.895303 -18.551601
+13.936494 -18.556047
+13.94704 -18.560258
+13.950339 -18.565882
+13.96639 -18.565612
+13.973774 -18.565316
+13.973774 -18.56502
+13.973776 -18.564725
+13.973776 -18.564431
+13.981812 -18.569014
+14.091118 -18.572791
+14.134034 -18.575234
+14.221424 -18.57885
+14.358582 -18.57985
+14.358582 -18.58085
+14.358584 -18.581847
+14.358584 -18.582869
+14.408747 -18.587133
+14.41484 -18.586629
+14.460065 -18.588782
+14.508945 -18.585729
+14.571059 -18.589989
+14.600755 -18.593969
+14.614832 -18.597411
+14.614835 -18.600845
+14.707869 -18.601848
+14.707869 -18.602862
+14.707872 -18.603859
+14.707872 -18.60486
+14.7648 -18.605863
+14.799482 -18.605167
+14.81087 -18.604326
+14.836365 -18.608435
+15.001852 -18.609311
+15.032016 -18.609716
+15.056583 -18.610889
+15.056586 -18.612009
+15.225569 -18.612401
+15.225569 -18.612797
+15.225571 -18.613194
+15.225571 -18.613585
+15.330219 -18.614859
+15.330219 -18.616135
+15.330219 -18.617372
+15.330219 -18.618643
+15.41956 -18.61919
+15.468774 -18.621098
+15.539944 -18.621475
+15.539944 -18.621866
+15.539946 -18.622248
+15.539946 -18.622621
+15.569952 -18.625627
+15.569952 -18.62859
+15.592753 -18.629252
+15.613283 -18.63013
+15.628134 -18.631843
+15.669331 -18.631622
+15.712661 -18.634448
+15.769854 -18.634891
+15.769854 -18.635336
+15.769857 -18.63577
+15.769857 -18.636205
+15.955869 -18.638651
+16.099964 -18.641244
+16.115287 -18.642959
+16.148111 -18.643574
+16.148111 -18.644179
+16.148113 -18.644784
+16.148113 -18.645369
+16.196571 -18.645508
+16.206985 -18.646218
+16.224269 -18.647422
+16.225459 -18.647651
+16.237644 -18.648808
+16.237644 -18.649968
+16.237646 -18.651135
+16.237646 -18.652281
+16.253064 -18.652331
+16.269741 -18.652231
+16.34779 -18.653889
+16.39568 -18.653477
+16.39568 -18.653055
+16.395682 -18.652619
+16.395682 -18.65221
+16.450109 -18.65192
+16.489701 -18.650725
+16.526428 -18.651512
+16.555904 -18.651898
+16.555904 -18.652308
+16.555904 -18.652728
+16.555904 -18.65312
+16.573437 -18.654735
+16.637522 -18.655355
+16.692377 -18.657227
+16.724125 -18.657147
+16.724125 -18.657043
+16.724128 -18.656942
+16.724128 -18.656843
+16.819853 -18.657815
+16.819853 -18.658779
+16.819854 -18.659751
+16.819854 -18.660705
+16.865245 -18.66093
+16.865245 -18.661151
+16.874627 -18.660756
+16.886708 -18.659817
+16.886708 -18.658877
+16.928007 -18.658486
+16.930266 -18.657889
+16.930266 -18.657296
+16.930395 -18.655749
+16.959525 -18.657358
+17.231596 -18.657711
+17.231596 -18.658061
+17.231597 -18.658409
+17.231597 -18.658757
+17.257441 -18.659831
+17.288923 -18.65925
+17.331446 -18.660767
+17.435404 -18.661222
+17.435404 -18.661671
+17.435407 -18.662122
+17.435407 -18.662563
+17.631887 -18.662538
+17.642062 -18.663974
+17.728158 -18.664538
+17.728158 -18.665102
+17.728161 -18.665666
+17.728161 -18.666219
+17.798416 -18.666008
+17.798416 -18.665802
+17.798417 -18.665592
+17.798417 -18.665374
+17.807696 -18.66628
+17.811103 -18.66604
+17.840363 -18.667267
+17.87977 -18.667477
+17.87977 -18.667701
+17.879771 -18.667914
+17.879772 -18.668122
+17.906756 -18.669433
+17.907524 -18.669121
+17.921844 -18.669193
+17.921844 -18.669276
+17.921845 -18.669446
+17.938737 -18.670361
+17.97478 -18.669907
+17.998901 -18.669997
+17.998901 -18.670112
+17.998904 -18.67021
+17.998904 -18.670308
+18.067309 -18.670273
+18.067309 -18.670203
+18.068303 -18.670022
+18.082572 -18.670777
+18.106825 -18.670631
+18.106825 -18.670476
+18.106826 -18.670299
+18.106826 -18.67015
+18.143505 -18.66996
+18.18887 -18.670354
+18.18887 -18.670745
+18.342638 -18.670951
+18.342638 -18.671157
+18.34264 -18.671355
+18.34264 -18.671557
+18.416615 -18.672821
+18.422417 -18.673074
+18.44813 -18.672724
+18.495263 -18.671243
+18.542607 -18.671659
+18.558073 -18.672833
+18.560765 -18.673529
+&
+@target G0.S8
+@type xy
+4.381653 -3.8648445
+4.6897188 -5.1236121
+4.6897188 -6.3823866
+4.6897203 -7.6411913
+4.6897204 -8.8999604
+4.8542918 -11.550336
+4.8798752 -12.927128
+4.8798753 -14.303922
+4.8798768 -15.680705
+4.8798768 -17.057496
+6.0648207 -17.638043
+6.6028026 -18.017852
+6.8108115 -18.392907
+7.3245439 -18.472622
+7.3245439 -18.552289
+7.3245467 -18.631954
+7.3245467 -18.711621
+7.6466902 -18.76671
+7.6466902 -18.821795
+7.646693 -18.876877
+7.646693 -18.931957
+7.9181152 -19.012683
+7.9370588 -19.070712
+7.9370588 -19.128754
+7.9370597 -19.1868
+7.9370597 -19.244848
+7.947854 -19.326287
+8.165894 -19.395077
+8.2328586 -19.432066
+8.2328586 -19.46907
+8.2328595 -19.506077
+8.2328595 -19.543099
+8.2752795 -19.56816
+8.2932584 -19.650311
+8.9719854 -19.704922
+9.0351772 -19.757576
+9.1537638 -19.770771
+9.2954905 -19.77701
+9.3615069 -19.828913
+9.3873735 -19.799624
+9.5735705 -19.811968
+9.5735705 -19.824309
+9.5735726 -19.836638
+9.5735726 -19.848964
+9.8078049 -19.882467
+9.9032591 -19.907839
+10.272462 -19.911401
+10.272462 -19.915007
+10.272465 -19.918567
+10.272465 -19.92215
+10.479836 -19.921072
+10.479836 -19.919955
+10.479837 -19.918886
+10.479837 -19.917841
+10.506826 -19.942852
+10.55227 -19.946227
+10.55227 -19.949569
+10.552271 -19.95294
+10.552271 -19.956311
+10.597768 -19.957346
+10.621616 -19.974134
+10.884055 -19.980445
+10.884055 -19.986749
+10.884058 -19.993061
+10.884058 -19.999381
+11.227186 -20.007093
+11.227189 -20.014796
+11.294246 -20.031172
+11.316444 -20.036719
+11.431706 -20.038834
+11.511985 -20.043459
+11.80109 -20.045743
+11.854553 -20.040448
+11.891152 -20.041769
+11.892728 -20.042907
+11.892728 -20.044037
+11.89273 -20.04518
+11.89273 -20.046319
+11.913808 -20.047105
+11.954353 -20.059184
+12.081057 -20.0635
+12.081057 -20.067818
+12.081058 -20.072132
+12.081058 -20.076449
+12.129643 -20.079914
+12.129643 -20.083364
+12.129644 -20.086805
+12.129644 -20.09025
+12.288125 -20.092841
+12.288126 -20.095452
+12.288126 -20.09807
+12.288126 -20.100672
+12.307337 -20.10871
+12.38281 -20.111812
+12.394698 -20.113588
+12.394698 -20.115373
+12.394701 -20.117159
+12.394701 -20.118939
+12.436584 -20.120533
+12.436584 -20.122104
+12.436585 -20.123684
+12.436585 -20.125279
+12.453271 -20.119954
+12.470205 -20.124652
+12.470205 -20.129358
+12.470206 -20.134047
+12.470206 -20.138741
+12.798372 -20.140928
+12.885392 -20.148306
+13.146759 -20.150136
+13.146759 -20.151959
+13.146761 -20.153787
+13.146761 -20.15561
+13.270954 -20.155572
+13.270954 -20.155538
+13.270957 -20.155493
+13.270957 -20.155453
+13.335178 -20.162577
+13.403536 -20.163443
+13.403536 -20.164316
+13.403538 -20.165209
+13.403538 -20.166083
+13.481495 -20.171792
+13.618504 -20.172955
+13.655137 -20.176988
+13.895301 -20.18008
+13.895301 -20.183204
+13.895303 -20.186278
+13.895303 -20.189369
+13.936494 -20.193762
+13.94704 -20.197886
+13.950339 -20.203221
+13.96639 -20.202978
+13.973774 -20.202726
+13.973774 -20.202486
+13.973776 -20.202238
+13.973776 -20.201997
+13.981812 -20.206367
+14.091118 -20.210073
+14.134034 -20.212551
+14.221424 -20.21609
+14.358582 -20.217101
+14.358582 -20.218116
+14.358584 -20.219124
+14.358584 -20.220147
+14.408747 -20.224331
+14.41484 -20.223986
+14.460065 -20.226058
+14.508945 -20.223215
+14.571059 -20.227284
+14.600755 -20.231041
+14.614832 -20.234506
+14.614835 -20.237897
+14.707869 -20.238903
+14.707869 -20.239911
+14.707872 -20.240927
+14.707872 -20.241939
+14.7648 -20.242944
+14.799482 -20.242397
+14.81087 -20.241558
+14.836365 -20.24533
+15.001852 -20.24625
+15.032016 -20.246559
+15.056583 -20.247718
+15.056586 -20.248877
+15.225569 -20.249353
+15.225569 -20.249801
+15.225571 -20.250248
+15.225571 -20.250714
+15.330219 -20.25195
+15.330219 -20.253189
+15.330219 -20.254452
+15.330219 -20.255705
+15.41956 -20.25636
+15.468774 -20.258064
+15.539944 -20.258449
+15.539944 -20.258847
+15.539946 -20.259235
+15.539946 -20.259629
+15.569952 -20.262643
+15.569952 -20.265665
+15.592753 -20.266381
+15.613283 -20.267347
+15.628134 -20.268928
+15.669331 -20.268749
+15.712661 -20.271437
+15.769854 -20.271895
+15.769854 -20.272337
+15.769857 -20.272795
+15.769857 -20.273246
+15.955869 -20.275487
+16.099964 -20.277999
+16.115287 -20.279652
+16.148111 -20.280245
+16.148111 -20.280839
+16.148113 -20.281472
+16.148113 -20.282075
+16.196571 -20.282275
+16.206985 -20.283103
+16.224269 -20.284237
+16.225459 -20.28449
+16.237644 -20.285603
+16.237644 -20.286718
+16.237646 -20.28783
+16.237646 -20.288975
+16.253064 -20.289047
+16.269741 -20.288925
+16.34779 -20.290597
+16.39568 -20.290204
+16.39568 -20.289859
+16.395682 -20.289482
+16.395682 -20.289088
+16.450109 -20.288765
+16.489701 -20.287621
+16.526428 -20.288317
+16.555904 -20.288731
+16.555904 -20.289156
+16.555904 -20.289564
+16.555904 -20.289988
+16.573437 -20.291529
+16.637522 -20.292141
+16.692377 -20.293946
+16.724125 -20.293887
+16.724125 -20.29382
+16.724128 -20.293733
+16.724128 -20.293651
+16.819853 -20.29459
+16.819853 -20.295521
+16.819854 -20.296452
+16.819854 -20.297392
+16.865245 -20.2977
+16.865245 -20.297942
+16.874627 -20.297517
+16.886708 -20.296657
+16.886708 -20.295802
+16.928007 -20.295461
+16.930266 -20.294943
+16.930266 -20.294404
+16.930395 -20.29287
+16.959525 -20.294385
+17.231596 -20.29473
+17.231596 -20.295078
+17.231597 -20.295427
+17.231597 -20.295803
+17.257441 -20.296756
+17.288923 -20.2962
+17.331446 -20.297638
+17.435404 -20.298074
+17.435404 -20.298492
+17.435407 -20.298933
+17.435407 -20.299362
+17.631887 -20.299423
+17.642062 -20.300742
+17.728158 -20.301304
+17.728158 -20.301852
+17.728161 -20.302388
+17.728161 -20.302932
+17.798416 -20.302752
+17.798416 -20.302555
+17.798417 -20.302394
+17.798417 -20.302207
+17.807696 -20.303073
+17.811103 -20.302834
+17.840363 -20.304042
+17.87977 -20.304251
+17.87977 -20.304465
+17.879771 -20.304655
+17.879772 -20.304867
+17.906756 -20.306108
+17.907524 -20.305808
+17.921844 -20.305899
+17.921844 -20.305982
+17.921845 -20.306143
+17.938737 -20.307048
+17.97478 -20.306547
+17.998901 -20.306679
+17.998901 -20.306814
+17.998904 -20.306918
+17.998904 -20.307031
+18.067309 -20.306997
+18.067309 -20.306942
+18.068303 -20.306792
+18.082572 -20.307468
+18.106825 -20.307324
+18.106825 -20.307174
+18.106826 -20.307027
+18.106826 -20.306877
+18.143505 -20.306679
+18.18887 -20.307071
+18.18887 -20.307489
+18.342638 -20.307677
+18.342638 -20.307868
+18.34264 -20.308075
+18.34264 -20.308276
+18.416615 -20.30945
+18.422417 -20.309709
+18.44813 -20.309469
+18.495263 -20.308038
+18.542607 -20.308391
+18.558073 -20.309548
+18.560765 -20.310105
+&
+@target G0.S9
+@type xy
+4.381653 -3.4658476
+4.6897188 -4.5452705
+4.6897188 -5.6246943
+4.6897203 -6.7041583
+4.6897204 -7.783575
+4.8542918 -10.175368
+4.8798752 -11.445061
+4.8798753 -12.714753
+4.8798768 -13.984425
+4.8798768 -15.254088
+6.0648207 -15.715562
+6.6028026 -16.088372
+6.8108115 -16.457887
+7.3245439 -16.533354
+7.3245439 -16.608823
+7.3245467 -16.684286
+7.3245467 -16.759752
+7.6466902 -16.812584
+7.6466902 -16.865403
+7.646693 -16.918208
+7.646693 -16.971
+7.9181152 -17.046315
+7.9370588 -17.101874
+7.9370588 -17.157413
+7.9370597 -17.212959
+7.9370597 -17.268518
+7.947854 -17.347472
+8.165894 -17.408142
+8.2328586 -17.443487
+8.2328586 -17.478831
+8.2328595 -17.514192
+8.2328595 -17.549551
+8.2752795 -17.57057
+8.2932584 -17.650714
+8.9719854 -17.703212
+9.0351772 -17.755159
+9.1537638 -17.764646
+9.2954905 -17.766867
+9.3615069 -17.818537
+9.3873735 -17.785324
+9.5735705 -17.796625
+9.5735705 -17.807928
+9.5735726 -17.819218
+9.5735726 -17.830516
+9.8078049 -17.863708
+9.9032591 -17.887768
+10.272462 -17.89075
+10.272462 -17.893717
+10.272465 -17.896681
+10.272465 -17.899658
+10.479836 -17.897756
+10.479836 -17.895856
+10.479837 -17.893942
+10.479837 -17.892028
+10.506826 -17.917097
+10.55227 -17.919904
+10.55227 -17.922706
+10.552271 -17.925504
+10.552271 -17.928311
+10.597768 -17.927953
+10.621616 -17.944602
+10.884055 -17.950675
+10.884055 -17.95674
+10.884058 -17.962815
+10.884058 -17.96891
+11.227186 -17.97617
+11.227189 -17.983436
+11.294246 -17.999638
+11.316444 -18.00432
+11.431706 -18.005301
+11.511985 -18.009516
+11.80109 -18.011094
+11.854553 -18.004988
+11.891152 -18.005385
+11.892728 -18.006222
+11.892728 -18.007069
+11.89273 -18.007907
+11.89273 -18.008745
+11.913808 -18.008672
+11.954353 -18.020807
+12.081057 -18.025056
+12.081057 -18.029298
+12.081058 -18.033552
+12.081058 -18.037793
+12.129643 -18.041086
+12.129643 -18.044373
+12.129644 -18.04766
+12.129644 -18.050955
+12.288125 -18.053462
+12.288126 -18.055956
+12.288126 -18.058442
+12.288126 -18.060938
+12.307337 -18.068879
+12.38281 -18.071383
+12.394698 -18.072959
+12.394698 -18.074533
+12.394701 -18.076123
+12.394701 -18.07771
+12.436584 -18.079107
+12.436584 -18.080497
+12.436585 -18.081883
+12.436585 -18.083273
+12.453271 -18.077197
+12.470205 -18.081923
+12.470205 -18.086672
+12.470206 -18.091425
+12.470206 -18.096177
+12.798372 -18.09804
+12.885392 -18.105388
+13.146759 -18.107064
+13.146759 -18.108745
+13.146761 -18.110433
+13.146761 -18.112108
+13.270954 -18.111914
+13.270954 -18.111726
+13.270957 -18.111528
+13.270957 -18.111331
+13.335178 -18.118406
+13.403536 -18.11917
+13.403536 -18.119944
+13.403538 -18.120714
+13.403538 -18.121481
+13.481495 -18.127186
+13.618504 -18.128046
+13.655137 -18.131986
+13.895301 -18.135095
+13.895301 -18.138207
+13.895303 -18.141333
+13.895303 -18.144459
+13.936494 -18.148818
+13.94704 -18.152976
+13.950339 -18.158401
+13.96639 -18.157885
+13.973774 -18.157507
+13.973774 -18.157143
+13.973776 -18.156773
+13.973776 -18.156402
+13.981812 -18.160838
+14.091118 -18.1644
+14.134034 -18.166777
+14.221424 -18.170185
+14.358582 -18.171129
+14.358582 -18.172071
+14.358584 -18.173019
+14.358584 -18.173972
+14.408747 -18.178096
+14.41484 -18.177491
+14.460065 -18.179389
+14.508945 -18.176208
+14.571059 -18.180261
+14.600755 -18.183943
+14.614832 -18.187282
+14.614835 -18.190691
+14.707869 -18.191646
+14.707869 -18.192599
+14.707872 -18.193549
+14.707872 -18.194499
+14.7648 -18.195275
+14.799482 -18.19435
+14.81087 -18.19342
+14.836365 -18.197263
+15.001852 -18.198003
+15.032016 -18.198182
+15.056583 -18.199271
+15.056586 -18.200355
+15.225569 -18.200733
+15.225569 -18.201087
+15.225571 -18.201458
+15.225571 -18.201827
+15.330219 -18.20308
+15.330219 -18.204339
+15.330219 -18.205589
+15.330219 -18.206843
+15.41956 -18.207299
+15.468774 -18.208998
+15.539944 -18.20934
+15.539944 -18.20968
+15.539946 -18.210023
+15.539946 -18.210364
+15.569952 -18.213347
+15.569952 -18.216287
+15.592753 -18.21685
+15.613283 -18.21756
+15.628134 -18.219102
+15.669331 -18.218787
+15.712661 -18.221501
+15.769854 -18.221902
+15.769854 -18.222313
+15.769857 -18.222723
+15.769857 -18.223131
+15.955869 -18.225315
+16.099964 -18.227801
+16.115287 -18.229325
+16.148111 -18.229907
+16.148111 -18.230501
+16.148113 -18.231088
+16.148113 -18.231677
+16.196571 -18.231793
+16.206985 -18.232512
+16.224269 -18.23363
+16.225459 -18.233838
+16.237644 -18.234975
+16.237644 -18.236107
+16.237646 -18.237245
+16.237646 -18.238377
+16.253064 -18.238395
+16.269741 -18.23812
+16.34779 -18.23976
+16.39568 -18.239319
+16.39568 -18.238875
+16.395682 -18.238432
+16.395682 -18.237999
+16.450109 -18.23756
+16.489701 -18.236256
+16.526428 -18.236988
+16.555904 -18.237394
+16.555904 -18.237783
+16.555904 -18.238176
+16.555904 -18.238556
+16.573437 -18.240063
+16.637522 -18.240665
+16.692377 -18.242456
+16.724125 -18.242339
+16.724125 -18.242213
+16.724128 -18.242097
+16.724128 -18.241981
+16.819853 -18.242937
+16.819853 -18.243893
+16.819854 -18.244836
+16.819854 -18.245788
+16.865245 -18.245981
+16.865245 -18.246156
+16.874627 -18.245713
+16.886708 -18.244731
+16.886708 -18.243728
+16.928007 -18.24328
+16.930266 -18.242608
+16.930266 -18.241965
+16.930395 -18.240217
+16.959525 -18.241759
+17.231596 -18.242074
+17.231596 -18.242389
+17.231597 -18.242725
+17.231597 -18.243049
+17.257441 -18.243969
+17.288923 -18.243352
+17.331446 -18.244839
+17.435404 -18.245259
+17.435404 -18.245692
+17.435407 -18.246123
+17.435407 -18.246547
+17.631887 -18.246452
+17.642062 -18.247748
+17.728158 -18.248296
+17.728158 -18.248833
+17.728161 -18.249364
+17.728161 -18.249906
+17.798416 -18.249692
+17.798416 -18.249466
+17.798417 -18.249252
+17.798417 -18.249011
+17.807696 -18.24985
+17.811103 -18.24956
+17.840363 -18.250802
+17.87977 -18.250992
+17.87977 -18.251175
+17.879771 -18.251366
+17.879772 -18.251555
+17.906756 -18.252795
+17.907524 -18.252432
+17.921844 -18.252502
+17.921844 -18.252584
+17.921845 -18.252677
+17.938737 -18.253588
+17.97478 -18.253031
+17.998901 -18.253087
+17.998901 -18.253187
+17.998904 -18.253269
+17.998904 -18.253355
+18.067309 -18.25326
+18.067309 -18.253207
+18.068303 -18.253022
+18.082572 -18.253705
+18.106825 -18.253526
+18.106825 -18.253346
+18.106826 -18.253142
+18.106826 -18.252969
+18.143505 -18.252726
+18.18887 -18.253121
+18.18887 -18.253509
+18.342638 -18.253668
+18.342638 -18.253833
+18.34264 -18.254026
+18.34264 -18.254195
+18.416615 -18.25546
+18.422417 -18.255741
+18.44813 -18.255378
+18.495263 -18.253872
+18.542607 -18.254232
+18.558073 -18.255386
+18.560765 -18.255944
+&
+@target G0.S10
+@type xy
+4.381653 -2.7638521
+4.6897188 -3.5117512
+4.6897188 -4.2596536
+4.6897203 -5.0075555
+4.6897204 -5.7554534
+4.8542918 -7.6834982
+4.8798752 -8.823544
+4.8798753 -9.9635976
+4.8798768 -11.103638
+4.8798768 -12.243687
+6.0648207 -12.471657
+6.6028026 -12.833276
+6.8108115 -13.192392
+7.3245439 -13.258438
+7.3245439 -13.324483
+7.3245467 -13.390539
+7.3245467 -13.456594
+7.6466902 -13.504467
+7.6466902 -13.55234
+7.646693 -13.600212
+7.646693 -13.648085
+7.9181152 -13.711723
+7.9370588 -13.761151
+7.9370588 -13.810581
+7.9370597 -13.860011
+7.9370597 -13.909439
+7.947854 -13.982447
+8.165894 -14.024985
+8.2328586 -14.056451
+8.2328586 -14.087916
+8.2328595 -14.119382
+8.2328595 -14.150847
+8.2752795 -14.164324
+8.2932584 -14.239571
+8.9719854 -14.286381
+9.0351772 -14.336161
+9.1537638 -14.338078
+9.2954905 -14.331857
+9.3615069 -14.381543
+9.3873735 -14.341555
+9.5735705 -14.350521
+9.5735705 -14.359485
+9.5735726 -14.368452
+9.5735726 -14.377418
+9.8078049 -14.409831
+9.9032591 -14.430536
+10.272462 -14.432334
+10.272462 -14.434114
+10.272465 -14.435895
+10.272465 -14.437693
+10.479836 -14.43421
+10.479836 -14.430728
+10.479837 -14.427245
+10.479837 -14.423762
+10.506826 -14.448449
+10.55227 -14.450165
+10.55227 -14.451881
+10.552271 -14.453597
+10.552271 -14.455313
+10.597768 -14.452292
+10.621616 -14.468252
+10.884055 -14.4738
+10.884055 -14.479344
+10.884058 -14.484889
+10.884058 -14.490439
+11.227186 -14.496721
+11.227189 -14.502997
+11.294246 -14.518599
+11.316444 -14.522219
+11.431706 -14.52088
+11.511985 -14.524236
+11.80109 -14.524503
+11.854553 -14.516903
+11.891152 -14.515443
+11.892728 -14.515707
+11.892728 -14.515969
+11.89273 -14.516231
+11.89273 -14.516495
+11.913808 -14.514717
+11.954353 -14.526803
+12.081057 -14.530862
+12.081057 -14.534924
+12.081058 -14.538986
+12.081058 -14.543045
+12.129643 -14.545979
+12.129643 -14.548904
+12.129644 -14.551829
+12.129644 -14.554762
+12.288125 -14.556972
+12.288126 -14.559181
+12.288126 -14.561391
+12.288126 -14.563601
+12.307337 -14.571306
+12.38281 -14.572693
+12.394698 -14.573866
+12.394698 -14.575039
+12.394701 -14.576212
+12.394701 -14.577384
+12.436584 -14.578409
+12.436584 -14.579432
+12.436585 -14.580455
+12.436585 -14.581477
+12.453271 -14.574197
+12.470205 -14.578934
+12.470205 -14.583672
+12.470206 -14.58841
+12.470206 -14.593148
+12.798372 -14.594309
+12.885392 -14.601668
+13.146759 -14.603086
+13.146759 -14.604502
+13.146761 -14.605917
+13.146761 -14.607335
+13.270954 -14.606852
+13.270954 -14.606371
+13.270957 -14.605886
+13.270957 -14.6054
+13.335178 -14.612532
+13.403536 -14.613102
+13.403536 -14.61367
+13.403538 -14.61424
+13.403538 -14.614812
+13.481495 -14.620532
+13.618504 -14.620739
+13.655137 -14.624439
+13.895301 -14.627634
+13.895301 -14.630828
+13.895303 -14.634021
+13.895303 -14.637213
+13.936494 -14.641518
+13.94704 -14.645648
+13.950339 -14.651057
+13.96639 -14.650116
+13.973774 -14.649525
+13.973774 -14.648936
+13.973776 -14.648347
+13.973776 -14.647758
+13.981812 -14.652186
+14.091118 -14.655621
+14.134034 -14.657905
+14.221424 -14.661249
+14.358582 -14.6621
+14.358582 -14.662947
+14.358584 -14.663792
+14.358584 -14.664644
+14.408747 -14.668859
+14.41484 -14.667835
+14.460065 -14.66956
+14.508945 -14.665874
+14.571059 -14.669989
+14.600755 -14.6738
+14.614832 -14.677153
+14.614835 -14.680517
+14.707869 -14.681421
+14.707869 -14.682324
+14.707872 -14.683229
+14.707872 -14.684132
+14.7648 -14.684708
+14.799482 -14.683445
+14.81087 -14.682146
+14.836365 -14.686071
+15.001852 -14.686723
+15.032016 -14.686734
+15.056583 -14.687664
+15.056586 -14.688608
+15.225569 -14.688848
+15.225569 -14.689079
+15.225571 -14.68931
+15.225571 -14.689549
+15.330219 -14.690788
+15.330219 -14.692028
+15.330219 -14.693267
+15.330219 -14.694502
+15.41956 -14.694711
+15.468774 -14.696352
+15.539944 -14.69662
+15.539944 -14.69689
+15.539946 -14.69716
+15.539946 -14.697427
+15.569952 -14.700472
+15.569952 -14.703517
+15.592753 -14.703897
+15.613283 -14.704558
+15.628134 -14.706069
+15.669331 -14.7054
+15.712661 -14.708257
+15.769854 -14.708604
+15.769854 -14.70895
+15.769857 -14.709294
+15.769857 -14.70964
+15.955869 -14.711925
+16.099964 -14.714495
+16.115287 -14.716117
+16.148111 -14.716647
+16.148111 -14.717178
+16.148113 -14.717707
+16.148113 -14.718235
+16.196571 -14.718046
+16.206985 -14.718585
+16.224269 -14.719517
+16.225459 -14.719576
+16.237644 -14.720722
+16.237644 -14.721869
+16.237646 -14.723016
+16.237646 -14.724162
+16.253064 -14.724045
+16.269741 -14.723703
+16.34779 -14.725338
+16.39568 -14.724799
+16.39568 -14.724259
+16.395682 -14.723724
+16.395682 -14.723189
+16.450109 -14.722633
+16.489701 -14.721132
+16.526428 -14.721732
+16.555904 -14.722071
+16.555904 -14.722408
+16.555904 -14.72274
+16.555904 -14.723075
+16.573437 -14.724666
+16.637522 -14.725155
+16.692377 -14.72707
+16.724125 -14.726876
+16.724125 -14.726684
+16.724128 -14.726493
+16.724128 -14.7263
+16.819853 -14.727282
+16.819853 -14.728266
+16.819854 -14.729247
+16.819854 -14.730232
+16.865245 -14.730294
+16.865245 -14.730355
+16.874627 -14.729657
+16.886708 -14.72846
+16.886708 -14.727266
+16.928007 -14.726572
+16.930266 -14.725745
+16.930266 -14.724914
+16.930395 -14.723046
+16.959525 -14.724622
+17.231596 -14.724911
+17.231596 -14.725198
+17.231597 -14.725484
+17.231597 -14.725771
+17.257441 -14.7267
+17.288923 -14.725966
+17.331446 -14.727484
+17.435404 -14.727882
+17.435404 -14.728279
+17.435407 -14.728676
+17.435407 -14.729074
+17.631887 -14.728967
+17.642062 -14.730356
+17.728158 -14.730894
+17.728158 -14.731425
+17.728161 -14.731956
+17.728161 -14.732495
+17.798416 -14.732208
+17.798416 -14.731926
+17.798417 -14.731644
+17.798417 -14.731356
+17.807696 -14.732215
+17.811103 -14.731803
+17.840363 -14.733055
+17.87977 -14.733204
+17.87977 -14.73336
+17.879771 -14.733515
+17.879772 -14.733664
+17.906756 -14.734953
+17.907524 -14.734504
+17.921844 -14.734532
+17.921844 -14.734558
+17.921845 -14.734613
+17.938737 -14.73551
+17.97478 -14.734863
+17.998901 -14.734909
+17.998901 -14.734955
+17.998904 -14.734998
+17.998904 -14.735045
+18.067309 -14.734873
+18.067309 -14.734701
+18.068303 -14.734453
+18.082572 -14.735149
+18.106825 -14.734913
+18.106825 -14.734677
+18.106826 -14.73444
+18.106826 -14.734204
+18.143505 -14.733889
+18.18887 -14.734249
+18.18887 -14.734608
+18.342638 -14.734765
+18.342638 -14.734918
+18.34264 -14.73507
+18.34264 -14.735227
+18.416615 -14.736503
+18.422417 -14.7367
+18.44813 -14.736226
+18.495263 -14.734574
+18.542607 -14.734927
+18.558073 -14.736146
+18.560765 -14.736675
+&
+@target G0.S11
+@type xy
+4.381653 -3.2422058
+4.6897188 -4.2130985
+4.6897188 -5.1839945
+4.6897203 -6.1548895
+4.6897204 -7.1257811
+4.8542918 -9.3008511
+4.8798752 -10.472825
+4.8798753 -11.644803
+4.8798768 -12.816773
+4.8798768 -13.988748
+6.0648207 -14.462284
+6.6028026 -14.8598
+6.8108115 -15.250915
+7.3245439 -15.333
+7.3245439 -15.415084
+7.3245467 -15.497169
+7.3245467 -15.579255
+7.6466902 -15.636622
+7.6466902 -15.693989
+7.646693 -15.751356
+7.646693 -15.808723
+7.9181152 -15.891539
+7.9370588 -15.951435
+7.9370588 -16.01133
+7.9370597 -16.071226
+7.9370597 -16.131121
+7.947854 -16.215034
+8.165894 -16.284063
+8.2328586 -16.322112
+8.2328586 -16.36016
+8.2328595 -16.39821
+8.2328595 -16.436258
+8.2752795 -16.461412
+8.2932584 -16.54746
+8.9719854 -16.603796
+9.0351772 -16.659229
+9.1537638 -16.67182
+9.2954905 -16.677151
+9.3615069 -16.731176
+9.3873735 -16.698626
+9.5735705 -16.711219
+9.5735705 -16.723812
+9.5735726 -16.736406
+9.5735726 -16.749
+9.8078049 -16.784332
+9.9032591 -16.81048
+10.272462 -16.814002
+10.272462 -16.817525
+10.272465 -16.821048
+10.272465 -16.824571
+10.479836 -16.823094
+10.479836 -16.821618
+10.479837 -16.820141
+10.479837 -16.818664
+10.506826 -16.844741
+10.55227 -16.84804
+10.55227 -16.851339
+10.552271 -16.854638
+10.552271 -16.857936
+10.597768 -16.858433
+10.621616 -16.875933
+10.884055 -16.882433
+10.884055 -16.888933
+10.884058 -16.895433
+10.884058 -16.901934
+11.227186 -16.90987
+11.227189 -16.917805
+11.294246 -16.934829
+11.316444 -16.940389
+11.431706 -16.942211
+11.511985 -16.946883
+11.80109 -16.948969
+11.854553 -16.943102
+11.891152 -16.944123
+11.892728 -16.945216
+11.892728 -16.946307
+11.89273 -16.947399
+11.89273 -16.948491
+11.913808 -16.948978
+11.954353 -16.961734
+12.081057 -16.966267
+12.081057 -16.970802
+12.081058 -16.975336
+12.081058 -16.979869
+12.129643 -16.983435
+12.129643 -16.987001
+12.129644 -16.990566
+12.129644 -16.994132
+12.288125 -16.99678
+12.288126 -16.999428
+12.288126 -17.002076
+12.288126 -17.004725
+12.307337 -17.013211
+12.38281 -17.016214
+12.394698 -17.017998
+12.394698 -17.019782
+12.394701 -17.021567
+12.394701 -17.023352
+12.436584 -17.024915
+12.436584 -17.026478
+12.436585 -17.028041
+12.436585 -17.029604
+12.453271 -17.023632
+12.470205 -17.02855
+12.470205 -17.033469
+12.470206 -17.038387
+12.470206 -17.043305
+12.798372 -17.045472
+12.885392 -17.053192
+13.146759 -17.055068
+13.146759 -17.056944
+13.146761 -17.058819
+13.146761 -17.060695
+13.270954 -17.060592
+13.270954 -17.060491
+13.270957 -17.060388
+13.270957 -17.060285
+13.335178 -17.067667
+13.403536 -17.06854
+13.403536 -17.069414
+13.403538 -17.070288
+13.403538 -17.071161
+13.481495 -17.077208
+13.618504 -17.078339
+13.655137 -17.082505
+13.895301 -17.085763
+13.895301 -17.089019
+13.895303 -17.092275
+13.895303 -17.095531
+13.936494 -17.10015
+13.94704 -17.104456
+13.950339 -17.110054
+13.96639 -17.1097
+13.973774 -17.109395
+13.973774 -17.10909
+13.973776 -17.108786
+13.973776 -17.108481
+13.981812 -17.11311
+14.091118 -17.116944
+14.134034 -17.119545
+14.221424 -17.123217
+14.358582 -17.124277
+14.358582 -17.125338
+14.358584 -17.126397
+14.358584 -17.127458
+14.408747 -17.131857
+14.41484 -17.131338
+14.460065 -17.133477
+14.508945 -17.130375
+14.571059 -17.134658
+14.600755 -17.138648
+14.614832 -17.142246
+14.614835 -17.145844
+14.707869 -17.146867
+14.707869 -17.147889
+14.707872 -17.148912
+14.707872 -17.149934
+14.7648 -17.150936
+14.799482 -17.150244
+14.81087 -17.149341
+14.836365 -17.153323
+15.001852 -17.154261
+15.032016 -17.154588
+15.056583 -17.155787
+15.056586 -17.156984
+15.225569 -17.157413
+15.225569 -17.157841
+15.225571 -17.15827
+15.225571 -17.158698
+15.330219 -17.159998
+15.330219 -17.161299
+15.330219 -17.1626
+15.330219 -17.1639
+15.41956 -17.164499
+15.468774 -17.166265
+15.539944 -17.166667
+15.539944 -17.167068
+15.539946 -17.16747
+15.539946 -17.167871
+15.569952 -17.170954
+15.569952 -17.174036
+15.592753 -17.174718
+15.613283 -17.175598
+15.628134 -17.177219
+15.669331 -17.177006
+15.712661 -17.179904
+15.769854 -17.180349
+15.769854 -17.180794
+15.769857 -17.181237
+15.769857 -17.181682
+15.955869 -17.184052
+16.099964 -17.186666
+16.115287 -17.188401
+16.148111 -17.189019
+16.148111 -17.189636
+16.148113 -17.190254
+16.148113 -17.190872
+16.196571 -17.191004
+16.206985 -17.191766
+16.224269 -17.192912
+16.225459 -17.193164
+16.237644 -17.194345
+16.237644 -17.195527
+16.237646 -17.196709
+16.237646 -17.19789
+16.253064 -17.197959
+16.269741 -17.197789
+16.34779 -17.199514
+16.39568 -17.199092
+16.39568 -17.198668
+16.395682 -17.198245
+16.395682 -17.197822
+16.450109 -17.197506
+16.489701 -17.19624
+16.526428 -17.197045
+16.555904 -17.197476
+16.555904 -17.197907
+16.555904 -17.198337
+16.555904 -17.198768
+16.573437 -17.200436
+16.637522 -17.201075
+16.692377 -17.203013
+16.724125 -17.202921
+16.724125 -17.202828
+16.724128 -17.202736
+16.724128 -17.202644
+16.819853 -17.203632
+16.819853 -17.20462
+16.819854 -17.205608
+16.819854 -17.206596
+16.865245 -17.206831
+16.865245 -17.207064
+16.874627 -17.206661
+16.886708 -17.205706
+16.886708 -17.204752
+16.928007 -17.204359
+16.930266 -17.203754
+16.930266 -17.203148
+16.930395 -17.201506
+16.959525 -17.203123
+17.231596 -17.20349
+17.231596 -17.203857
+17.231597 -17.204224
+17.231597 -17.204591
+17.257441 -17.205595
+17.288923 -17.204995
+17.331446 -17.206542
+17.435404 -17.206996
+17.435404 -17.207451
+17.435407 -17.207905
+17.435407 -17.20836
+17.631887 -17.208343
+17.642062 -17.20977
+17.728158 -17.210339
+17.728158 -17.210908
+17.728161 -17.211478
+17.728161 -17.212048
+17.798416 -17.211835
+17.798416 -17.211621
+17.798417 -17.211408
+17.798417 -17.211194
+17.807696 -17.212087
+17.811103 -17.211843
+17.840363 -17.213121
+17.87977 -17.213332
+17.87977 -17.213543
+17.879771 -17.213754
+17.879772 -17.213965
+17.906756 -17.215271
+17.907524 -17.214942
+17.921844 -17.215025
+17.921844 -17.215107
+17.921845 -17.215273
+17.938737 -17.216223
+17.97478 -17.215698
+17.998901 -17.215802
+17.998901 -17.215907
+17.998904 -17.216012
+17.998904 -17.216116
+18.067309 -17.216042
+18.067309 -17.215969
+18.068303 -17.215811
+18.082572 -17.216538
+18.106825 -17.216372
+18.106825 -17.216206
+18.106826 -17.216039
+18.106826 -17.215873
+18.143505 -17.215674
+18.18887 -17.216093
+18.18887 -17.216511
+18.342638 -17.21671
+18.342638 -17.21691
+18.34264 -17.217109
+18.34264 -17.217308
+18.416615 -17.218576
+18.422417 -17.218836
+18.44813 -17.218486
+18.495263 -17.216965
+18.542607 -17.217352
+18.558073 -17.218537
+18.560765 -17.219086
+&
+@target G0.S12
+@type xy
+4.381653 -4.2712763
+4.6897188 -5.6584119
+4.6897188 -7.0455512
+4.6897203 -8.4326906
+4.6897204 -9.8198262
+4.8542918 -12.712023
+4.8798752 -14.208287
+4.8798753 -15.704557
+4.8798768 -17.200815
+4.8798768 -18.69708
+6.0648207 -19.393685
+6.6028026 -19.84199
+6.8108115 -20.276219
+7.3245439 -20.37273
+7.3245439 -20.46924
+7.3245467 -20.565751
+7.3245467 -20.662262
+7.6466902 -20.729108
+7.6466902 -20.795954
+7.646693 -20.862799
+7.646693 -20.929645
+7.9181152 -21.028979
+7.9370588 -21.098663
+7.9370588 -21.168347
+7.9370597 -21.238031
+7.9370597 -21.307715
+7.947854 -21.405505
+8.165894 -21.495528
+8.2328586 -21.540363
+8.2328586 -21.585197
+8.2328595 -21.630033
+8.2328595 -21.674867
+8.2752795 -21.711734
+8.2932584 -21.808366
+8.9719854 -21.873589
+9.0351772 -21.93485
+9.1537638 -21.955317
+9.2954905 -21.968826
+9.3615069 -22.028031
+9.3873735 -22.001791
+9.5735705 -22.017369
+9.5735705 -22.032947
+9.5735726 -22.048526
+9.5735726 -22.064105
+9.8078049 -22.102797
+9.9032591 -22.133717
+10.272462 -22.138821
+10.272462 -22.143925
+10.272465 -22.149029
+10.272465 -22.154133
+10.479836 -22.154268
+10.479836 -22.154404
+10.479837 -22.154539
+10.479837 -22.154674
+10.506826 -22.182787
+10.55227 -22.1875
+10.55227 -22.192213
+10.552271 -22.196926
+10.552271 -22.201638
+10.597768 -22.204751
+10.621616 -22.224226
+10.884055 -22.231651
+10.884055 -22.239076
+10.884058 -22.246501
+10.884058 -22.253927
+11.227186 -22.263414
+11.227189 -22.272901
+11.294246 -22.291528
+11.316444 -22.298682
+11.431706 -22.302885
+11.511985 -22.30891
+11.80109 -22.312394
+11.854553 -22.307954
+11.891152 -22.31085
+11.892728 -22.312633
+11.892728 -22.314415
+11.89273 -22.316197
+11.89273 -22.31798
+11.913808 -22.320089
+11.954353 -22.333749
+12.081057 -22.338801
+12.081057 -22.343854
+12.081058 -22.348907
+12.081058 -22.353959
+12.129643 -22.358138
+12.129643 -22.362317
+12.129644 -22.366495
+12.129644 -22.370674
+12.288125 -22.373771
+12.288126 -22.376868
+12.288126 -22.379965
+12.288126 -22.383063
+12.307337 -22.392371
+12.38281 -22.396607
+12.394698 -22.398904
+12.394698 -22.401201
+12.394701 -22.403499
+12.394701 -22.405796
+12.436584 -22.407862
+12.436584 -22.409928
+12.436585 -22.411994
+12.436585 -22.41406
+12.453271 -22.409145
+12.470205 -22.414392
+12.470205 -22.419639
+12.470206 -22.424886
+12.470206 -22.430133
+12.798372 -22.433103
+12.885392 -22.441368
+13.146759 -22.443649
+13.146759 -22.445929
+13.146761 -22.448209
+13.146761 -22.450489
+13.270954 -22.450716
+13.270954 -22.450944
+13.270957 -22.451171
+13.270957 -22.451398
+13.335178 -22.459205
+13.403536 -22.460379
+13.403536 -22.461554
+13.403538 -22.462729
+13.403538 -22.463903
+13.481495 -22.470393
+13.618504 -22.472253
+13.655137 -22.476867
+13.895301 -22.480278
+13.895301 -22.483688
+13.895303 -22.487098
+13.895303 -22.490508
+13.936494 -22.4955
+13.94704 -22.500115
+13.950339 -22.50605
+13.96639 -22.506161
+13.973774 -22.506113
+13.973774 -22.506065
+13.973776 -22.506017
+13.973776 -22.505969
+13.981812 -22.510927
+14.091118 -22.515178
+14.134034 -22.518146
+14.221424 -22.522217
+14.358582 -22.523467
+14.358582 -22.524718
+14.358584 -22.525968
+14.358584 -22.527219
+14.408747 -22.531913
+14.41484 -22.531784
+14.460065 -22.534296
+14.508945 -22.531641
+14.571059 -22.536193
+14.600755 -22.540446
+14.614832 -22.544333
+14.614835 -22.54822
+14.707869 -22.549372
+14.707869 -22.550524
+14.707872 -22.551676
+14.707872 -22.552827
+14.7648 -22.554192
+14.799482 -22.553903
+14.81087 -22.553333
+14.836365 -22.557506
+15.001852 -22.558725
+15.032016 -22.559347
+15.056583 -22.560791
+15.056586 -22.562234
+15.225569 -22.562826
+15.225569 -22.563417
+15.225571 -22.564009
+15.225571 -22.5646
+15.330219 -22.565995
+15.330219 -22.56739
+15.330219 -22.568785
+15.330219 -22.570179
+15.41956 -22.571114
+15.468774 -22.573056
+15.539944 -22.57358
+15.539944 -22.574104
+15.539946 -22.574628
+15.539946 -22.575152
+15.569952 -22.578374
+15.569952 -22.581596
+15.592753 -22.582559
+15.613283 -22.583656
+15.628134 -22.585431
+15.669331 -22.585561
+15.712661 -22.588603
+15.769854 -22.589147
+15.769854 -22.589691
+15.769857 -22.590234
+15.769857 -22.590778
+15.955869 -22.593294
+16.099964 -22.596025
+16.115287 -22.597913
+16.148111 -22.598617
+16.148111 -22.59932
+16.148113 -22.600023
+16.148113 -22.600727
+16.196571 -22.601111
+16.206985 -22.602086
+16.224269 -22.603433
+16.225459 -22.603867
+16.237644 -22.605112
+16.237644 -22.606357
+16.237646 -22.607603
+16.237646 -22.608848
+16.253064 -22.609108
+16.269741 -22.609102
+16.34779 -22.610964
+16.39568 -22.610644
+16.39568 -22.610323
+16.395682 -22.610003
+16.395682 -22.609683
+16.450109 -22.609562
+16.489701 -22.608485
+16.526428 -22.609486
+16.555904 -22.610009
+16.555904 -22.610532
+16.555904 -22.611054
+16.555904 -22.611577
+16.573437 -22.613374
+16.637522 -22.61416
+16.692377 -22.616189
+16.724125 -22.616177
+16.724125 -22.616165
+16.724128 -22.616153
+16.724128 -22.616141
+16.819853 -22.617172
+16.819853 -22.618204
+16.819854 -22.619235
+16.819854 -22.620267
+16.865245 -22.620664
+16.865245 -22.62106
+16.874627 -22.620859
+16.886708 -22.620092
+16.886708 -22.619325
+16.928007 -22.619152
+16.930266 -22.618722
+16.930266 -22.618291
+16.930395 -22.61684
+16.959525 -22.618561
+17.231596 -22.619005
+17.231596 -22.619449
+17.231597 -22.619893
+17.231597 -22.620337
+17.257441 -22.621448
+17.288923 -22.620995
+17.331446 -22.622632
+17.435404 -22.623138
+17.435404 -22.623644
+17.435407 -22.62415
+17.435407 -22.624656
+17.631887 -22.624748
+17.642062 -22.626248
+17.728158 -22.62686
+17.728158 -22.627471
+17.728161 -22.628083
+17.728161 -22.628695
+17.798416 -22.628548
+17.798416 -22.6284
+17.798417 -22.628253
+17.798417 -22.628105
+17.807696 -22.629101
+17.811103 -22.628993
+17.840363 -22.630347
+17.87977 -22.630609
+17.87977 -22.630872
+17.879771 -22.631135
+17.879772 -22.631397
+17.906756 -22.632773
+17.907524 -22.63255
+17.921844 -22.632688
+17.921844 -22.632825
+17.921845 -22.633101
+17.938737 -22.634138
+17.97478 -22.633718
+17.998901 -22.633876
+17.998901 -22.634035
+17.998904 -22.634193
+17.998904 -22.634351
+18.067309 -22.634376
+18.067309 -22.634401
+18.068303 -22.634342
+18.082572 -22.63513
+18.106825 -22.63502
+18.106825 -22.63491
+18.106826 -22.634799
+18.106826 -22.634689
+18.143505 -22.634598
+18.18887 -22.635097
+18.18887 -22.635595
+18.342638 -22.635836
+18.342638 -22.636077
+18.34264 -22.636318
+18.34264 -22.636558
+18.416615 -22.63787
+18.422417 -22.638208
+18.44813 -22.637968
+18.495263 -22.636573
+18.542607 -22.637032
+18.558073 -22.638264
+18.560765 -22.638885
+&
+@target G0.S13
+@type xy
+4.381653 -4.4784831
+4.6897188 -5.941313
+4.6897188 -7.4041478
+4.6897203 -8.8669823
+4.6897204 -10.329812
+4.8542918 -13.582576
+4.8798752 -15.241409
+4.8798753 -16.900251
+4.8798768 -18.559075
+4.8798768 -20.21791
+6.0648207 -20.830283
+6.6028026 -21.322369
+6.8108115 -21.793678
+7.3245439 -21.895827
+7.3245439 -21.997972
+7.3245467 -22.10012
+7.3245467 -22.202267
+7.6466902 -22.274796
+7.6466902 -22.347327
+7.646693 -22.419856
+7.646693 -22.492383
+7.9181152 -22.597356
+7.9370588 -22.672568
+7.9370588 -22.747779
+7.9370597 -22.822992
+7.9370597 -22.898201
+7.947854 -23.010564
+8.165894 -23.104149
+8.2328586 -23.153867
+8.2328586 -23.203583
+8.2328595 -23.253302
+8.2328595 -23.303021
+8.2752795 -23.346749
+8.2932584 -23.450413
+8.9719854 -23.521914
+9.0351772 -23.587988
+9.1537638 -23.609001
+9.2954905 -23.622169
+9.3615069 -23.687705
+9.3873735 -23.662664
+9.5735705 -23.679239
+9.5735705 -23.695815
+9.5735726 -23.712392
+9.5735726 -23.728969
+9.8078049 -23.771097
+9.9032591 -23.804507
+10.272462 -23.81042
+10.272462 -23.816333
+10.272465 -23.822246
+10.272465 -23.828159
+10.479836 -23.828692
+10.479836 -23.829226
+10.479837 -23.82976
+10.479837 -23.830292
+10.506826 -23.86153
+10.55227 -23.86694
+10.55227 -23.872349
+10.552271 -23.877759
+10.552271 -23.883169
+10.597768 -23.886653
+10.621616 -23.908556
+10.884055 -23.91667
+10.884055 -23.924784
+10.884058 -23.932897
+10.884058 -23.941012
+11.227186 -23.951515
+11.227189 -23.962018
+11.294246 -23.982444
+11.316444 -23.990227
+11.431706 -23.994898
+11.511985 -24.001995
+11.80109 -24.005814
+11.854553 -24.001684
+11.891152 -24.004989
+11.892728 -24.007016
+11.892728 -24.009043
+11.89273 -24.01107
+11.89273 -24.013098
+11.913808 -24.015358
+11.954353 -24.030228
+12.081057 -24.03574
+12.081057 -24.041252
+12.081058 -24.046764
+12.081058 -24.052276
+12.129643 -24.0569
+12.129643 -24.061523
+12.129644 -24.066145
+12.129644 -24.070769
+12.288125 -24.074275
+12.288126 -24.077781
+12.288126 -24.081287
+12.288126 -24.084794
+12.307337 -24.094849
+12.38281 -24.099476
+12.394698 -24.101984
+12.394698 -24.104493
+12.394701 -24.107003
+12.394701 -24.109511
+12.436584 -24.111907
+12.436584 -24.114303
+12.436585 -24.1167
+12.436585 -24.119096
+12.453271 -24.114372
+12.470205 -24.120164
+12.470205 -24.125955
+12.470206 -24.131747
+12.470206 -24.137538
+12.798372 -24.140795
+12.885392 -24.149887
+13.146759 -24.152368
+13.146759 -24.154847
+13.146761 -24.157328
+13.146761 -24.159807
+13.270954 -24.16014
+13.270954 -24.160473
+13.270957 -24.160806
+13.270957 -24.161138
+13.335178 -24.169675
+13.403536 -24.171014
+13.403536 -24.172355
+13.403538 -24.173695
+13.403538 -24.175035
+13.481495 -24.182049
+13.618504 -24.184138
+13.655137 -24.189141
+13.895301 -24.19286
+13.895301 -24.19658
+13.895303 -24.200299
+13.895303 -24.204017
+13.936494 -24.209429
+13.94704 -24.214598
+13.950339 -24.221164
+13.96639 -24.22135
+13.973774 -24.221391
+13.973774 -24.221433
+13.973776 -24.221474
+13.973776 -24.221516
+13.981812 -24.226964
+14.091118 -24.231621
+14.134034 -24.234928
+14.221424 -24.239409
+14.358582 -24.240775
+14.358582 -24.242141
+14.358584 -24.243506
+14.358584 -24.244872
+14.408747 -24.249996
+14.41484 -24.24992
+14.460065 -24.252664
+14.508945 -24.250021
+14.571059 -24.25504
+14.600755 -24.259636
+14.614832 -24.263841
+14.614835 -24.268046
+14.707869 -24.269322
+14.707869 -24.270597
+14.707872 -24.271873
+14.707872 -24.273147
+14.7648 -24.27465
+14.799482 -24.274375
+14.81087 -24.27393
+14.836365 -24.278555
+15.001852 -24.279901
+15.032016 -24.28067
+15.056583 -24.282289
+15.056586 -24.283905
+15.225569 -24.284553
+15.225569 -24.285199
+15.225571 -24.285846
+15.225571 -24.286493
+15.330219 -24.288041
+15.330219 -24.289588
+15.330219 -24.291135
+15.330219 -24.292681
+15.41956 -24.293747
+15.468774 -24.295945
+15.539944 -24.296531
+15.539944 -24.297117
+15.539946 -24.297702
+15.539946 -24.298288
+15.569952 -24.301841
+15.569952 -24.305394
+15.592753 -24.306463
+15.613283 -24.307671
+15.628134 -24.309704
+15.669331 -24.309895
+15.712661 -24.31322
+15.769854 -24.313827
+15.769854 -24.314435
+15.769857 -24.315041
+15.769857 -24.315648
+15.955869 -24.318385
+16.099964 -24.321405
+16.115287 -24.323444
+16.148111 -24.324228
+16.148111 -24.325012
+16.148113 -24.325795
+16.148113 -24.326579
+16.196571 -24.327026
+16.206985 -24.328106
+16.224269 -24.329597
+16.225459 -24.330092
+16.237644 -24.331444
+16.237644 -24.332795
+16.237646 -24.334148
+16.237646 -24.3355
+16.253064 -24.33584
+16.269741 -24.335942
+16.34779 -24.337954
+16.39568 -24.337644
+16.39568 -24.337333
+16.395682 -24.337024
+16.395682 -24.336714
+16.450109 -24.336612
+16.489701 -24.33556
+16.526428 -24.336682
+16.555904 -24.337266
+16.555904 -24.33785
+16.555904 -24.338434
+16.555904 -24.339018
+16.573437 -24.340965
+16.637522 -24.341829
+16.692377 -24.344066
+16.724125 -24.344075
+16.724125 -24.344083
+16.724128 -24.344092
+16.724128 -24.344101
+16.819853 -24.345233
+16.819853 -24.346367
+16.819854 -24.347499
+16.819854 -24.348632
+16.865245 -24.349117
+16.865245 -24.3496
+16.874627 -24.349404
+16.886708 -24.348639
+16.886708 -24.347873
+16.928007 -24.347715
+16.930266 -24.347308
+16.930266 -24.346902
+16.930395 -24.345425
+16.959525 -24.347294
+17.231596 -24.347781
+17.231596 -24.348267
+17.231597 -24.348754
+17.231597 -24.349241
+17.257441 -24.35045
+17.288923 -24.350017
+17.331446 -24.351778
+17.435404 -24.352329
+17.435404 -24.352879
+17.435407 -24.353429
+17.435407 -24.353979
+17.631887 -24.354099
+17.642062 -24.355729
+17.728158 -24.35639
+17.728158 -24.357051
+17.728161 -24.357712
+17.728161 -24.358374
+17.798416 -24.358232
+17.798416 -24.35809
+17.798417 -24.357948
+17.798417 -24.357805
+17.807696 -24.358911
+17.811103 -24.358812
+17.840363 -24.36027
+17.87977 -24.360563
+17.87977 -24.360856
+17.879771 -24.36115
+17.879772 -24.361443
+17.906756 -24.362939
+17.907524 -24.362723
+17.921844 -24.362885
+17.921844 -24.363046
+17.921845 -24.363369
+17.938737 -24.364504
+17.97478 -24.364112
+17.998901 -24.36429
+17.998901 -24.364468
+17.998904 -24.364646
+17.998904 -24.364823
+18.067309 -24.364892
+18.067309 -24.364962
+18.068303 -24.364917
+18.082572 -24.365812
+18.106825 -24.365716
+18.106825 -24.36562
+18.106826 -24.365523
+18.106826 -24.365427
+18.143505 -24.365346
+18.18887 -24.365918
+18.18887 -24.366489
+18.342638 -24.366755
+18.342638 -24.367022
+18.34264 -24.367289
+18.34264 -24.367554
+18.416615 -24.369
+18.422417 -24.369372
+18.44813 -24.369128
+18.495263 -24.367687
+18.542607 -24.368192
+18.558073 -24.369551
+18.560765 -24.370234
+&
+@target G0.S14
+@type xy
+4.381653 -3.9956728
+4.6897188 -5.2532747
+4.6897188 -6.51088
+4.6897203 -7.7684871
+4.6897204 -9.0260907
+4.8542918 -11.835338
+4.8798752 -13.338562
+4.8798753 -14.841796
+4.8798768 -16.345013
+4.8798768 -17.848242
+6.0648207 -18.432409
+6.6028026 -18.892266
+6.8108115 -19.337414
+7.3245439 -19.433037
+7.3245439 -19.528657
+7.3245467 -19.62428
+7.3245467 -19.719902
+7.6466902 -19.788313
+7.6466902 -19.856726
+7.646693 -19.925137
+7.646693 -19.993546
+7.9181152 -20.091834
+7.9370588 -20.160794
+7.9370588 -20.229753
+7.9370597 -20.298713
+7.9370597 -20.36767
+7.947854 -20.471342
+8.165894 -20.553114
+8.2328586 -20.598697
+8.2328586 -20.644278
+8.2328595 -20.689862
+8.2328595 -20.735446
+8.2752795 -20.775933
+8.2932584 -20.875452
+8.9719854 -20.939291
+9.0351772 -21.003508
+9.1537638 -21.020757
+9.2954905 -21.029527
+9.3615069 -21.090351
+9.3873735 -21.064847
+9.5735705 -21.079435
+9.5735705 -21.094024
+9.5735726 -21.108615
+9.5735726 -21.123204
+9.8078049 -21.164346
+9.9032591 -21.193907
+10.272462 -21.199226
+10.272462 -21.204545
+10.272465 -21.209864
+10.272465 -21.215183
+10.479836 -21.215006
+10.479836 -21.214831
+10.479837 -21.214655
+10.479837 -21.214479
+10.506826 -21.244201
+10.55227 -21.248968
+10.55227 -21.253734
+10.552271 -21.258501
+10.552271 -21.263266
+10.597768 -21.265907
+10.621616 -21.286929
+10.884055 -21.294603
+10.884055 -21.302277
+10.884058 -21.30995
+10.884058 -21.317624
+11.227186 -21.327741
+11.227189 -21.337858
+11.294246 -21.356759
+11.316444 -21.364039
+11.431706 -21.366558
+11.511985 -21.373383
+11.80109 -21.376482
+11.854553 -21.372315
+11.891152 -21.373854
+11.892728 -21.375576
+11.892728 -21.377297
+11.89273 -21.379018
+11.89273 -21.380741
+11.913808 -21.381853
+11.954353 -21.396336
+12.081057 -21.401617
+12.081057 -21.406898
+12.081058 -21.41218
+12.081058 -21.41746
+12.129643 -21.42156
+12.129643 -21.42566
+12.129644 -21.429759
+12.129644 -21.433858
+12.288125 -21.437041
+12.288126 -21.440223
+12.288126 -21.443405
+12.288126 -21.446589
+12.307337 -21.456376
+12.38281 -21.459978
+12.394698 -21.462138
+12.394698 -21.464298
+12.394701 -21.466458
+12.394701 -21.468617
+12.436584 -21.470662
+12.436584 -21.472707
+12.436585 -21.474752
+12.436585 -21.476797
+12.453271 -21.472021
+12.470205 -21.477557
+12.470205 -21.483093
+12.470206 -21.488629
+12.470206 -21.494165
+12.798372 -21.497004
+12.885392 -21.505836
+13.146759 -21.50798
+13.146759 -21.510123
+13.146761 -21.512266
+13.146761 -21.514409
+13.270954 -21.514666
+13.270954 -21.514923
+13.270957 -21.51518
+13.270957 -21.515437
+13.335178 -21.523685
+13.403536 -21.524829
+13.403536 -21.525974
+13.403538 -21.527119
+13.403538 -21.528263
+13.481495 -21.535175
+13.618504 -21.53659
+13.655137 -21.541373
+13.895301 -21.54499
+13.895301 -21.548607
+13.895303 -21.552224
+13.895303 -21.555841
+13.936494 -21.561038
+13.94704 -21.566002
+13.950339 -21.572161
+13.96639 -21.572204
+13.973774 -21.572128
+13.973774 -21.572052
+13.973776 -21.571975
+13.973776 -21.571899
+13.981812 -21.577208
+14.091118 -21.581468
+14.134034 -21.584716
+14.221424 -21.588777
+14.358582 -21.590056
+14.358582 -21.591336
+14.358584 -21.592615
+14.358584 -21.593895
+14.408747 -21.598753
+14.41484 -21.598548
+14.460065 -21.601014
+14.508945 -21.598368
+14.571059 -21.603067
+14.600755 -21.607594
+14.614832 -21.611682
+14.614835 -21.615771
+14.707869 -21.616984
+14.707869 -21.618198
+14.707872 -21.619411
+14.707872 -21.620623
+14.7648 -21.62186
+14.799482 -21.621327
+14.81087 -21.620852
+14.836365 -21.625267
+15.001852 -21.626492
+15.032016 -21.627244
+15.056583 -21.628801
+15.056586 -21.630356
+15.225569 -21.630877
+15.225569 -21.631397
+15.225571 -21.631918
+15.225571 -21.632439
+15.330219 -21.633888
+15.330219 -21.635337
+15.330219 -21.636786
+15.330219 -21.638234
+15.41956 -21.638971
+15.468774 -21.641091
+15.539944 -21.641601
+15.539944 -21.642113
+15.539946 -21.642623
+15.539946 -21.643134
+15.569952 -21.646535
+15.569952 -21.649937
+15.592753 -21.650765
+15.613283 -21.651874
+15.628134 -21.653816
+15.669331 -21.653687
+15.712661 -21.656912
+15.769854 -21.657452
+15.769854 -21.657992
+15.769857 -21.65853
+15.769857 -21.65907
+15.955869 -21.661759
+16.099964 -21.664622
+16.115287 -21.666613
+16.148111 -21.667321
+16.148111 -21.668028
+16.148113 -21.668735
+16.148113 -21.669443
+16.196571 -21.669665
+16.206985 -21.670553
+16.224269 -21.671844
+16.225459 -21.672256
+16.237644 -21.673578
+16.237644 -21.674899
+16.237646 -21.676222
+16.237646 -21.677544
+16.253064 -21.677878
+16.269741 -21.677945
+16.34779 -21.67991
+16.39568 -21.67957
+16.39568 -21.67923
+16.395682 -21.67889
+16.395682 -21.67855
+16.450109 -21.678334
+16.489701 -21.67727
+16.526428 -21.678187
+16.555904 -21.678695
+16.555904 -21.679202
+16.555904 -21.679709
+16.555904 -21.680216
+16.573437 -21.682144
+16.637522 -21.682935
+16.692377 -21.685099
+16.724125 -21.685093
+16.724125 -21.685087
+16.724128 -21.685081
+16.724128 -21.685075
+16.819853 -21.686171
+16.819853 -21.687267
+16.819854 -21.688362
+16.819854 -21.689458
+16.865245 -21.689829
+16.865245 -21.690198
+16.874627 -21.689847
+16.886708 -21.68901
+16.886708 -21.688174
+16.928007 -21.687824
+16.930266 -21.68735
+16.930266 -21.686876
+16.930395 -21.685403
+16.959525 -21.687197
+17.231596 -21.687618
+17.231596 -21.68804
+17.231597 -21.688462
+17.231597 -21.688883
+17.257441 -21.690024
+17.288923 -21.68959
+17.331446 -21.69133
+17.435404 -21.691856
+17.435404 -21.692382
+17.435407 -21.692908
+17.435407 -21.693435
+17.631887 -21.693521
+17.642062 -21.695119
+17.728158 -21.695765
+17.728158 -21.69641
+17.728161 -21.697055
+17.728161 -21.697701
+17.798416 -21.697535
+17.798416 -21.697367
+17.798417 -21.6972
+17.798417 -21.697032
+17.807696 -21.698017
+17.811103 -21.697819
+17.840363 -21.699255
+17.87977 -21.699508
+17.87977 -21.699762
+17.879771 -21.700015
+17.879772 -21.700268
+17.906756 -21.701706
+17.907524 -21.701454
+17.921844 -21.701594
+17.921844 -21.701733
+17.921845 -21.702012
+17.938737 -21.703063
+17.97478 -21.702661
+17.998901 -21.702798
+17.998901 -21.702936
+17.998904 -21.703074
+17.998904 -21.703211
+18.067309 -21.703227
+18.067309 -21.703244
+18.068303 -21.703162
+18.082572 -21.704023
+18.106825 -21.703899
+18.106825 -21.703774
+18.106826 -21.703648
+18.106826 -21.703524
+18.143505 -21.70338
+18.18887 -21.703905
+18.18887 -21.70443
+18.342638 -21.704671
+18.342638 -21.704912
+18.34264 -21.705154
+18.34264 -21.705394
+18.416615 -21.70678
+18.422417 -21.707127
+18.44813 -21.706809
+18.495263 -21.705372
+18.542607 -21.70585
+18.558073 -21.707137
+18.560765 -21.707813
+&

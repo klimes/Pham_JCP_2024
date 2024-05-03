@@ -1,0 +1,7 @@
+Scripts to generate ATM energies using cuby4 and parameters in DFT-D3
+with modifications of Beran et al for the MP2D
+
+read the file ../new_energies_sym_trimer_test20tig_AVTZ_991.dat
+generate the trimer, get its energy and add it to output file
+
+

@@ -1,0 +1,18 @@
+job: multistep
+steps: no, yes
+
+calculation_common:
+  job: interaction
+  bsse_correction: no
+  interface: dispersion3
+  d3_s6: 1.0
+  d3_damping: tt
+  d3_hybridization: grimme_mod
+  d3_3body: true
+  #no effect on 3b?
+  development:
+    d3_double_damping4: yes
+    d3_double_damping_r: 0.72
+    d3_double_damping_w: 0.20
+  d3_s8: 1.187
+  #geometry: /home/kelum/work/dataset/3B69/3B-69_geometries/11b_isoxazole.xyz
